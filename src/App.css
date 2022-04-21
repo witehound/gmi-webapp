@@ -1,0 +1,9 @@
+.App {
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 450px) {
+  /* .App {
+    position: sticky;
+  } */
+}

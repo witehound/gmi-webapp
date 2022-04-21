@@ -1,0 +1,34 @@
+.usapart-card-div-wrap{
+    height: 25%;
+    background-color: white;
+    width: 80%;
+    border-radius: 1.2rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1B2130;
+}
+
+.usapart-card-div-top{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.usapart-card-div-story{
+    flex: 4;
+}
+
+.usapart-card-div-story-h2{
+    font-size: 20px;
+}
+
+.usapart-card-div-story-p{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 450px){
+    .usapart-card-div-wrap{
+        width: 95%;
+    }
+}

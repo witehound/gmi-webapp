@@ -1,0 +1,36 @@
+.nav-bar-options-div {
+  height: 100vh;
+  color: #1b2130;
+  background-color: white;
+  overflow-x: hidden;
+  position: relative;
+  display: none;
+}
+
+.nav-bar-options-div-content {
+  font-weight: 200;
+  width: 200px;
+  height: 45px;
+  margin-top: 10px;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.nav-bar-options-div-inner {
+  height: 90%;
+}
+
+@media only screen and (max-width: 450px) {
+  .nav-bar-options-div{
+    display: block;
+    height: 100vh;
+    color: #1b2130;
+    background-color: white;
+    overflow-x: hidden;
+    position: relative;
+  }
+}

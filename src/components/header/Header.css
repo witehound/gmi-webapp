@@ -1,0 +1,172 @@
+.header-div-wrap{
+  width: 100%;
+}
+
+.header-div {
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.header-div-inner{
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+}
+
+.header-wrap {
+  height: 70px;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .header-left */
+
+.header-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.gmi-header-logo {
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.header-left-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+}
+
+/* header-right */
+
+.header-right {
+  flex: 1.3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right-welcome {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right-clients {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right-connect-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right-connect {
+  background-color: #27d87f;
+  height: 40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  color: #1b2130;
+}
+
+.button-to-more {
+  background-color: #27d87f;
+  height: 40px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.3rem;
+  color: #1b2130;
+}
+
+.header-right-clients-text,
+.header-right-welcome-text,
+.header-right-connect-text {
+  cursor: pointer;
+}
+
+.header-menu-icon {
+  cursor: pointer;
+}
+
+.header-menu-wrap{
+    display: none;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 450px) {
+  .header-left-title {
+    display: none;
+  }
+
+  /* ------ */
+
+  .header-div {
+    position: fixed;
+    top: 0;
+    width: 100vw
+  }
+
+  .header-right-welcome,
+  .header-right-clients {
+    display: none;
+  }
+
+  .header-right-connect{
+      font-size: 10px;
+  }
+
+  .header-menu-wrap {
+    display: block;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* .header-menu-open{
+      background-color: #27d87f;
+  } */
+
+  .header-menu-wrap-inner {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30%;
+  }
+
+  .header-menu-icon {
+    height: 40px;
+    width: 40px;
+  }
+}

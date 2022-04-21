@@ -1,0 +1,11 @@
+.Home-top{
+  height: 70px;
+}
+
+.Home-hidden {
+  display: none;
+}
+
+.Home{
+  position: sticky;
+}

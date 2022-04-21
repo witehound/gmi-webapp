@@ -1,0 +1,141 @@
+.hero-div {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  color: #1b2130;
+  background-color: #27d87f;
+  top: 70px;
+  font-size: 40px;
+}
+
+.hero-div-wrap {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  background-image: url("../../../assets/gmi-alltogether\ copy.ai");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* hero-div-wrap */
+
+.hero-div-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.innovative-hero {
+  width: 100%;
+  height: 70%;
+}
+
+.hero-div-right {
+  flex: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* hero-div-right */
+
+.hero-div-right-div {
+  height: 90%;
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.hero-div-right-div-h1{
+  font-size: 35px;
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-div-right-div-p-wrap {
+  flex: 4;
+}
+
+.button-to-connect-wrap {
+  flex: 1;
+  
+}
+
+.button-to-connect {
+  background-color: white;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  color: #1b2130;
+  height: 43px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-div-right-div-p {
+  font-size: 14px;
+  font-weight: 150;
+}
+
+.hero-space{
+  height: 10%;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 450px) {
+  .hero-div{
+    height: 700px;
+  }
+
+  .hero-div-wrap {
+    flex-direction: column;
+  }
+
+  .innovative-hero{
+    width: 60%;
+    height: 40%;
+  }
+
+  .hero-div-right-div-p {
+    font-size: 13px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-div-right-div-h1 {
+    font-size: 25px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .button-to-connect{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .button-to-connect-wrap {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+}

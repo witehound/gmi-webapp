@@ -1,0 +1,10 @@
+.dashboard{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashbaord-inner{
+    flex: 1;
+    display: flex;
+}

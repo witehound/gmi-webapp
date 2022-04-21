@@ -1,0 +1,80 @@
+.usapart-div {
+  height: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b2130;
+}
+
+.usapart-div-inner {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* usapart-div-top */
+
+.usapart-div-top {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #1b2130;
+}
+
+.usapart-div-top-p {
+  width: 40%;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* usapart-div-bottom */
+.usapart-div-bottom {
+  flex: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usapart-div-bottom-inner {
+  display: flex;
+  height: 100%;
+  width: 90%;
+}
+
+.usapart-div-bottom-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.usapart-div-bottom-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 450px){
+  .usapart-div{
+    height: 2400px;
+    font-size: 13px;
+  }
+
+  .usapart-div-bottom-inner{
+    flex-direction: column;
+  }
+  
+  .usapart-div-top-p{
+    width: 100%;
+  }
+
+  .usapart-div-top{
+    flex: 0.8;
+  }
+}
