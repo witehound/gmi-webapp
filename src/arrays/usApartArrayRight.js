@@ -18,8 +18,7 @@ const usApartArrayRight = [
 
   export default usApartArrayRight
 
-  const yes = true
-
+  
 
 
 
