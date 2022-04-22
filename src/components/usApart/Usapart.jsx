@@ -1,7 +1,7 @@
 import UsapartCard from "../UsapartCard/UsapartCard";
 import "./Usapart.css";
 import usApartArray  from '../../arrays/usApartArrayLeft'
-import ProjectInMindComponent from '../../components/ProjectInMind/ProjectInMind'
+import ProjectInMindComponent from '../ProjectInMind/ProjectInMind'
 import usApartArrayRight  from '../../arrays/usApartArrayRight'
 
 function Usapart() {
