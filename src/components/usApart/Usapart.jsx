@@ -1,8 +1,8 @@
 import UsapartCard from "../UsapartCard/UsapartCard";
 import "./Usapart.css";
 import usApartArray  from '../../arrays/usApartArrayLeft'
-import ProjectInMindComponent from '../ProjectInMind/ProjectInMind'
 import usApartArrayRight  from '../../arrays/usApartArrayRight'
+import Pmind from "../Pmind/Pmind";
 
 function Usapart() {
   const add = true
@@ -27,7 +27,7 @@ function Usapart() {
             {usApartArrayRight.map(({img, h2, p }) => (
                 <UsapartCard key={h2} img={img} h2={h2} p={p} />
               ))}
-             <ProjectInMindComponent/>
+             <Pmind/>
             </div>
           </div>
         </div>

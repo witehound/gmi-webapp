@@ -1,6 +1,7 @@
-import "./ProjectInMind.css";
+import React from "react";
+import "./Pmind.css";
 
-function ProjectInMindComponent() {
+const Pmind = () => {
   return (
     <div className="project-card-div-wrap">
       <div className="project-card-div-top">
@@ -11,6 +12,6 @@ function ProjectInMindComponent() {
       </div>
     </div>
   );
-}
+};
 
-export default ProjectInMindComponent;
+export default Pmind;
