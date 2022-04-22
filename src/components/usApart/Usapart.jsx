@@ -5,6 +5,7 @@ import usApartArrayRight  from '../../arrays/usApartArrayRight'
 import ProjectInMind from "../projectInMind/projectInMind";
 
 function Usapart() {
+  const add = true
   return (
     <div className="usapart-div">
       <div className="usapart-div-inner">
@@ -26,7 +27,7 @@ function Usapart() {
             {usApartArrayRight.map(({img, h2, p }) => (
                 <UsapartCard key={h2} img={img} h2={h2} p={p} />
               ))}
-              <ProjectInMind />
+             <ProjectInMind />
             </div>
           </div>
         </div>
