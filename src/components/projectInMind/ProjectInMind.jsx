@@ -1,6 +1,6 @@
 import "./ProjectInMind.css";
 
-function ProjectInMind() {
+function ProjectInMindComponent() {
   return (
     <div className="project-card-div-wrap">
       <div className="project-card-div-top">
@@ -13,4 +13,4 @@ function ProjectInMind() {
   );
 }
 
-export default ProjectInMind;
+export default ProjectInMindComponent;

@@ -3,7 +3,7 @@ import Header from "../../components/header/Header";
 import Hero from "../../components/Hero/Hero";
 import CryptoStats from "../../components/CryptoStats/CryptoStats";
 import NftStats from "../../components/NftStats/NftStats";
-// import Usapart from "../../components/usApart/Usapart";
+import Usapart from "../../components/usApart/Usapart";
 import Copyright from "../../components/Copyright/Copyright";
 import LetsCooperate from "../../components/letsCooperate/LetsCooperate";
 function Home({ isMetaMask, account }) {
@@ -18,7 +18,7 @@ function Home({ isMetaMask, account }) {
         <Hero />
         <CryptoStats />
         <NftStats />
-        {/* <Usapart /> */}
+        <Usapart />
         <LetsCooperate />
         <Copyright />
       </div>
