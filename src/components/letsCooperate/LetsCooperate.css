@@ -160,6 +160,13 @@
   }
 
   .lets-cooperate-div-inner-bottom-buttons {
+    display: none;
+  }
+
+  .lets-cooperate-div-inner-round-buttons {
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
   }
 }
