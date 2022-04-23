@@ -22,7 +22,7 @@ const usApartArray = [
     {
       img: lang,
       h2: "We speak your language ",
-      p: "With international locations such as New York, London, Berlin, Moscow and Kiev, our representatives are never too far away. Our think global, act local, approach means we offer to you our world-class expertise, complete with a personal touchWith international locations such as New York, London, Berlin, Moscow and Kiev, our representatives are never too far away. Our think global, act local, approach means we offer to you our world-class expertise, complete with a personal touch",
+      p: "With international locations such as New York, London, Berlin, Moscow and Kiev, our representatives are never too far away. Our think global, act local, approach means we offer to you our world-class expertise, complete with a personal touchWith international locations such as New York, London, Berlin, Moscow and Kiev",
       i: 3,
     },
   ];

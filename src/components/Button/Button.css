@@ -64,3 +64,10 @@
        font-size: 22px;
     }
 }
+
+@media only screen and (max-width: 478px){
+    .button-div-white,.button-div-green{
+        width: 200px;
+       font-size: 15px;
+    }
+}

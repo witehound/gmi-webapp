@@ -21,8 +21,8 @@ function Usapart() {
         opacity: 1,
         transition: {
           type: "spring",
-          duration: 1,
-          bounce: 0.3,
+          duration: 2,
+          bounce: 0.1,
         }
       })
 
