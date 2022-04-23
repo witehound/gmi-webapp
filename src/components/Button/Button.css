@@ -58,6 +58,14 @@
     }
 }
 
+@media only screen and (max-width: 890px){
+    .button-div-white,.button-div-green{
+        width: 300px;
+       font-size: 20px;
+    }
+}
+
+
 @media only screen and (max-width: 970px){
     .button-div-white,.button-div-green{
         width: 320px;
@@ -67,7 +75,7 @@
 
 @media only screen and (max-width: 478px){
     .button-div-white,.button-div-green{
-        width: 200px;
-       font-size: 15px;
+        width: 170px;
+        font-size: 15px;
     }
 }

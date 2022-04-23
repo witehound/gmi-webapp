@@ -1,6 +1,7 @@
 import "./NftStats.css";
 import nftstore from "../../../assets/nft-store-13048.svg";
 import nftsblock from "../../../assets/nft-blockchain-13054.svg";
+import Button from "../Button/Button";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
@@ -18,7 +19,7 @@ function Hero() {
           type: "spring",
           duration: 1.5,
           bounce: 0.2,
-        }
+        },
       });
 
       animationTwo.start({
@@ -29,7 +30,7 @@ function Hero() {
         },
       });
     }
-    
+
     if (!inView) {
       animationOne.start({
         x: "-100vw ",
@@ -64,10 +65,7 @@ function Hero() {
             </div>
           </div>
         </motion.div>
-        <motion.div
-          className="nft-div-right"
-          animate={animationTwo}
-        >
+        <motion.div className="nft-div-right" animate={animationTwo}>
           <div className="nft-div-right-div">
             <h1 className="-div-right-div-h1">This is WEB3, This is NFT</h1>
             <div className="nft-div-right-div-p-wrap">
@@ -81,8 +79,8 @@ function Hero() {
               </p>
             </div>
             <div className="space-nft"></div>
-            <div className="button-to-more-wrap-nft">
-              <button className="button-to-more">More</button>
+            <div className="nft-div-right-div-button">
+              <Button text={"more"} color={"green"} />
             </div>
           </div>
         </motion.div>

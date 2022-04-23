@@ -131,6 +131,10 @@
   .hero-div-right-div-p{
     font-size: 1.1rem;
   }
+
+  .hero-div-right{
+    margin-left: 4%;
+  }
 }
 
 @media only screen and (max-width: 890px){
