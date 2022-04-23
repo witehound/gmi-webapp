@@ -22,6 +22,7 @@
   justify-content: center;
   flex-direction: column;
   color: #1b2130;
+  z-index: -19;
 }
 
 .usapart-div-top-p {

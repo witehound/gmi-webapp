@@ -5,6 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Close from "@mui/icons-material/Close";
 import { useState } from "react";
 import NavBarOptions from "../NavBarOptions/NavBarOptions";
+import Button from "../Button/Button";
 
 function Header({ isMetaMask, account }) {
   const [isNavBarOpen, setIsNavBarOpen] = useState(false);
@@ -18,7 +19,7 @@ function Header({ isMetaMask, account }) {
   };
 
   return (
-    <div className="header-div-wrap">
+    <div className={`header-div-wrap ${isNavBarOpen ? `header-div-wrap-ststic`: "" }`}>
       <div className="header-div">
         <div className="header-div-inner">
           <div className="header-wrap">
@@ -37,7 +38,7 @@ function Header({ isMetaMask, account }) {
 
               <div className="header-right-connect-wrap">
                 <div className="header-right-connect">
-                  {account ? (
+                  {/* {account ? (
                     <div
                       className="header-right-connect-text"
                       onClick={connectWallet}
@@ -46,13 +47,18 @@ function Header({ isMetaMask, account }) {
                     </div>
                   ) : (
                     "Account is : 0X...."
-                  )}
+                  )} */}
+                  <Button text={"connect"} color={"white"} />
                 </div>
               </div>
             </div>
             <div className="header-menu-wrap">
               <div className="header-menu-wrap-inner">
-                {!isNavBarOpen ? <MenuIcon onClick={navbarworks} /> : <Close onClick={navbarworks} />}
+                {!isNavBarOpen ? (
+                  <MenuIcon onClick={navbarworks} />
+                ) : (
+                  <Close onClick={navbarworks} />
+                )}
               </div>
             </div>
           </div>

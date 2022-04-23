@@ -12,9 +12,6 @@ function Home({ isMetaMask, account }) {
     <>
       <Header account={account} isMetaMask={isMetaMask} />
       <div className={works ? "Home-hidden" : "Home"}>
-      <div className="Home-top">
-              
-      </div>
         <Hero />
         <CryptoStats />
         <NftStats />
