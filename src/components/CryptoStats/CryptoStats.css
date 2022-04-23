@@ -33,15 +33,34 @@
 /* stats-div-left */
 
 .stats-div-left-in {
-  height: 90%;
-  width: 70%;
+  height: 80%;
+  width: 80%;
   display: flex;
   flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats-div-left-h1{
+  height: 20%;
+  line-height: 2rem;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .stats-div-left-p {
-  font-size: 14px;
+  font-size: 1.2rem;
+  line-height: 1.3rem;
   font-weight: 150;
+  height: 15%;
+}
+
+.stats-div-left-h4{
+  height: 15%;
+  display: flex;
+  align-items:flex-end;
+  font-size: 1.2;
 }
 
 .button-to-more-wrap {
@@ -52,10 +71,10 @@
   justify-content: center;
   border-radius: 0.2rem;
   color: #1b2130;
-  height: 100%;
+  height: 20%;
 }
 
-.button-to-more-working {
+/* .button-to-more-working {
   background-color: #27d87f;
   width: 50%;
   height: 25%;
@@ -66,17 +85,20 @@
   border-radius: 0.2rem;
   padding: 0;
   margin-top: 0;
-}
+} */
 
 /* stats-div-right */
 
 .stats-div-right-img {
   flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .candle-stick-svg {
-  height: 70%;
-  width: 70%;
+  height: 25rem;
+  width: 25rem;
   filter: invert(9%) sepia(26%) saturate(1024%) hue-rotate(184deg)
     brightness(93%) contrast(90%);
   z-index: 1;
@@ -84,46 +106,53 @@
 
 /* mobile */
 
-@media only screen and (max-width: 786px) {
-  .stats-div-wrap{
-    height: 600px;
+@media only screen and (max-width: 1150px){
+  .stats-div-left-in{
+    width: 85%;
   }
-  
-  .stats-div {
-    flex-direction: column;
-  }
+}
 
+@media only screen and (max-width: 970px){
+  .stats-div-left-in{
+    height: 85%;
+  }
   .stats-div-left-p {
-    font-size: 13px;
-    text-align: center;
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (max-width: 890px){
+  .stats-div-wrap{
+    height: 1000px;
   }
 
-  .stats-div-right {
-    display: none;
-  }
-
-  .stats-div-left-h1 {
-    text-align: center;
-  }
-
-  .stats-div-left-in {
-    justify-content: space-around;
+  .stats-div-left-in{
     height: 90%;
-    width: 80%;
   }
 
-  .stats-div-left-h4 {
-    font-size: 15px;
-    text-align: center;
+  .stats-div{
+    flex-direction: column-reverse;
+    width: 88%;
   }
 
-  .button-to-more-wrap {
-    width: 100%;
-    height: 100%;
+  .stats-div-right{
+    height: 40%;
   }
 
-  .button-to-more-working{
-    height: 60%;
-    width: 60%;
+  .stats-div-left{
+   height: 60%;
   }
+
+  .candle-stick-svg{
+    height: 22rem;
+    width: 22rem;
+  }
+
+  .stats-div-left-h4{
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  
 }
