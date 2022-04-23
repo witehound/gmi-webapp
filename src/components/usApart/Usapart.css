@@ -1,10 +1,15 @@
 .usapart-div {
-  height: 1400px;
+  height: 900px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #1b2130;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  padding: 10px;
 }
+
 
 .usapart-div-inner {
   height: 100%;
@@ -26,8 +31,8 @@
 }
 
 .usapart-div-top-p {
-  width: 40%;
   font-size: 15px;
+  width: 60%;
   text-align: center;
 }
 
@@ -37,12 +42,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .usapart-div-bottom-inner {
   display: flex;
   height: 100%;
-  width: 90%;
+  width: 100%;
+  flex-direction: column;
 }
 
 .usapart-div-bottom-left {
@@ -51,6 +58,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+  flex-direction: row;
 }
 
 .usapart-div-bottom-right {
@@ -59,11 +67,96 @@
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
+  flex-direction: row;
+}
+
+.usapart-div-bottom-right-card{
+  display: flex;
+  flex-direction: row;
+  flex: 2;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-card-div-wrap-hold{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project-card-div-wrap-hold-inner{
+  width: 350px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.project-card-div-top-div{
+  display: flex;
+  align-items: center;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 1125px){
+  .usapart-div-inner{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .usapart-div{
+    height: 850px;
+    margin-top: 3%;
+  }
+
+  .project-card-div-top-h1{
+    font-size: 1.5rem;
+  }
+
+  .usapart-div-bottom{
+    margin-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 950px){
+  .usapart-div-bottom-right-card{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 890px){
+  .usapart-div{
+    height: 1200px;
+  }
+
+  .usapart-div-bottom-left{
+    flex-direction: column;
+  }
+
+  .project-card-div-wrap-hold{
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 690px){
+  .usapart-div-top-p{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 481px){
+  .usapart-div-top-p{
+    width: 85%;
+  }
 }
 
 @media only screen and (max-width: 450px){
   .usapart-div{
-    height: 2400px;
     font-size: 13px;
   }
 
@@ -77,5 +170,11 @@
 
   .usapart-div-top{
     flex: 0.8;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .usapart-div-bottom-right{
+    width: 250px;
   }
 }

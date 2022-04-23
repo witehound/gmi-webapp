@@ -6,6 +6,7 @@ import usApartArrayRight from "../../arrays/usApartArrayRight";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import Button from '../Button/Button'
 
 function Usapart() {
   const { ref, inView } = useInView();
@@ -14,8 +15,8 @@ function Usapart() {
   const animationRight = useAnimation();
   const add = true;
 
-  useEffect(()=>{
-    if(inView){
+  useEffect(() => {
+    if (inView) {
       animationTop.start({
         y: 0,
         opacity: 1,
@@ -23,8 +24,8 @@ function Usapart() {
           type: "spring",
           duration: 2,
           bounce: 0.1,
-        }
-      })
+        },
+      });
 
       animationLeft.start({
         x: 0,
@@ -33,8 +34,8 @@ function Usapart() {
           type: "spring",
           duration: 2,
           bounce: 0.1,
-        }
-      })
+        },
+      });
 
       animationRight.start({
         x: 0,
@@ -43,34 +44,34 @@ function Usapart() {
           type: "spring",
           duration: 2,
           bounce: 0.1,
-        }
-      })
+        },
+      });
     }
 
-    if(!inView){
+    if (!inView) {
       animationTop.start({
-        y: '-100vh',
-        opacity: 0
-      })
+        y: "-100vh",
+        opacity: 0,
+      });
 
       animationLeft.start({
-        x: '-100vw',
-        opacity: 0
-      })
+        x: "-100vw",
+        opacity: 0,
+      });
 
       animationRight.start({
-        x: '100vw',
-        opacity: 0
-      })
+        x: "100vw",
+        opacity: 0,
+      });
     }
-    console.log(inView)
-  },[inView])
+    console.log(inView);
+  }, [inView]);
 
   return (
     <div className="usapart-div">
       <div className="usapart-div-inner" ref={ref}>
         <motion.div className="usapart-div-top" animate={animationTop}>
-          <h1 className="usapart-div-top-h1" >What sets us apart</h1>
+          <h1 className="usapart-div-top-h1">What sets us apart</h1>
           <p className="usapart-div-top-p">
             In collaborations with our much loved customers, we create
             ground-breaking solutions for their unique business needs
@@ -78,27 +79,39 @@ function Usapart() {
         </motion.div>
         <div className="usapart-div-bottom">
           <div className="usapart-div-bottom-inner">
-            <motion.div className="usapart-div-bottom-left" animate={animationLeft}>
+            <motion.div
+              className="usapart-div-bottom-left"
+              animate={animationLeft}
+            >
               {usApartArray.map(({ img, h2, p }) => (
-                <UsapartCard key={h2} img={img} h2={h2} p={p}  />
-              ))}
-            </motion.div>
-            <motion.div className="usapart-div-bottom-right" animate={animationRight}>
-              {usApartArrayRight.map(({ img, h2, p, }) => (
                 <UsapartCard key={h2} img={img} h2={h2} p={p} />
               ))}
-              <div className="project-card-div-wrap">
-                <div className="project-card-div-top">
+            </motion.div>
+
+            <motion.div
+              className="usapart-div-bottom-right"
+              animate={animationRight}
+            >
+              <div className="usapart-div-bottom-right-card">
+                {usApartArrayRight.map(({ img, h2, p }) => (
+                  <UsapartCard key={h2} img={img} h2={h2} p={p} />
+                ))}
+              </div>
+              <div className="project-card-div-wrap-hold">
+                <div className="project-card-div-wrap-hold-inner">
+                <div className="project-card-div-top-div">
                   <h1 className="project-card-div-top-h1">
                     Have a project in mind?
                   </h1>
                 </div>
                 <div className="project-card-div-bottom">
                   <button className="project-card-div-top-button">
-                    Build at gmi
+                    <Button color={'white'} text= {'more'}/>
                   </button>
                 </div>
               </div>
+              </div>
+              
             </motion.div>
           </div>
         </div>
