@@ -199,18 +199,34 @@
 
 @media only screen and (max-width: 400px){
   .hero-div{
-    height: 1050px;
-  }
-}
-
-@media only screen and (max-width: 290px){
-  .hero-div{
     height: 950px;
   }
 
+  .hero-div-right-div-p{
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 371px){
+  .hero-div-right-div-p{
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 324px){
+  .hero-div{
+    height: 1000px;
+  }
+}
+
+@media only screen and (max-width: 302px){
+  .hero-div{
+    height: 900px;
+  }
+
   .innovative-hero{
-    width: 12rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
   }
 
   .hero-div-right-div-h1{
