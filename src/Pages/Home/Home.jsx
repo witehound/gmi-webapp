@@ -16,6 +16,7 @@ function Home({
   connectWallet,
   connectingWallet,
   setConnectingWallet,
+  accoutAddress
 }) {
   const works = false;
   return (
@@ -25,6 +26,7 @@ function Home({
         isMetaMask={isMetaMask}
         connectWallet={connectWallet}
         setConnectingWallet={setConnectingWallet}
+        accoutAddress={accoutAddress}
       />
       {!connectingWallet && (
         <div className={works ? "Home-hidden" : "Home"}>

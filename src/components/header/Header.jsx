@@ -11,6 +11,7 @@ function Header({
   account,
   connectWallet,
   setConnectingWallet,
+  accoutAddress
 }) {
   const [isNavBarOpen, setIsNavBarOpen] = useState(false);
 
@@ -24,7 +25,7 @@ function Header({
     if (account){
       setConnectingWallet(false)
     }else{
-      setTimeout(()=>{setConnectingWallet(false)},20000)
+      setTimeout(()=>{setConnectingWallet(false)},15000)
       return
     }
     
@@ -69,7 +70,7 @@ function Header({
                   {!account ? (
                     <div>{isMetaMask ? "Connect" : "Install MetaMask"}</div>
                   ) : (
-                    account
+                    <div>{accoutAddress}</div>
                   )}
                 </div>
               </div>

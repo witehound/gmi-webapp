@@ -13,9 +13,7 @@ function Hero() {
             className="innovative-hero"
           />
         </div>
-        <div
-          className="hero-div-right"
-        >
+        <div className="hero-div-right">
           <div className="hero-div-right-div">
             <h1 className="hero-div-right-div-h1">Build. Grow. Pivot.</h1>
             <div className="hero-div-right-div-p-wrap">
@@ -38,7 +36,7 @@ function Hero() {
               </div>
             </div>
             <div className="button-to-connect-wrap">
-              <a href="mailto: Hi@studio-gmi.com"><Button text={"build at gmi"} color={"green"} /></a>
+              <Button text={"build at gmi"} color={"green"} />
             </div>
           </div>
         </div>

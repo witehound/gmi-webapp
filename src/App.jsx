@@ -7,20 +7,31 @@ import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 function App() {
   const { ethereum } = window;
   const [isMetaMask, setIsMetaMask] = useState(false);
-  const [account, setAccount] = useState(false);
+  const [account, setAccount] = useState(null);
+  const [accoutAddress, setAccountAddress] =useState('')
   const [connectingWallet, setConnectingWallet] = useState(false);
 
   const connectWallet = async () => {
     if (!ethereum) return;
-    const account = await ethereum.request({ method: "eth_requestAccounts" });
-    setAccount(account[0]);
+    const accounts = await ethereum.request({ method: "eth_requestAccounts" });
+    setAccount(accounts[0]);
   };
+
+  const checkConnection = async () => {
+    const accounts = await ethereum.request({ method: "eth_accounts" });
+    setAccount(accounts[0])
+  }
+
+  const sliceAddress = () => {
+    setAccountAddress(`${account.slice(0,5)}.......${account.slice(-4)}`)
+  }
 
   useEffect(() => {
     if (ethereum) {
       setIsMetaMask(true);
     }
-    console.log(account);
+    checkConnection()
+    if(account) sliceAddress()
   }, [account]);
 
   return (
@@ -36,6 +47,7 @@ function App() {
                 connectingWallet={connectingWallet}
                 setConnectingWallet={setConnectingWallet}
                 account={account}
+                accoutAddress={accoutAddress}
               />
             }
           />
