@@ -24,23 +24,7 @@ function LetsCooperate() {
 
   useEffect(() => {
     newArray(letsCoopArray, cooperateState);
-
-    if (inView) {
-      animationOne.start({
-        x: 0,
-        transition: {
-          duration: 1,
-          bounce: 0.2,
-        },
-      });
-    }
-
-    if (!inView) {
-      animationOne.start({
-        x: "-100vw ",
-      });
-    }
-  }, [cooperateState, inView]);
+  }, [cooperateState]);
   return (
     <div className="lets-cooperate-div" ref={ref}>
       <motion.div className="lets-cooperate-div-inner" animate={animationOne}>

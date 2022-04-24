@@ -1,11 +1,12 @@
 .usapart-card-div-wrap{
     height: 300px;
-    background-color: #27D87F;
+    background-color: #1b2130;
     width: 400px;
     border-radius: 1.2rem;
     padding: 20px;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .usapart-card-div-top{

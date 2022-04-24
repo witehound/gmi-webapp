@@ -9,3 +9,60 @@
 .Home{
   position: sticky;
 }
+
+.connect-wallet-container{
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.connect-wallet-container-img-logo{
+  height: 200px;
+  width:450px;
+}
+
+.connect-wallet-container-img-name{
+  height: 300px;
+  width: 600px;
+}
+
+/* mobile */
+@media only screen and (max-width: 640px){
+  .connect-wallet-container-img-logo{
+    height: 150px;
+    width:330px;
+  }
+
+  .connect-wallet-container-img-name{
+    height: 200px;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .connect-wallet-container-img-logo{
+    height: 150px;
+    width:300px;
+  }
+
+  .connect-wallet-container-img-name{
+    height: 200px;
+    width: 380px;
+  }
+}
+
+@media only screen and (max-width: 380px){
+  .connect-wallet-container-img-logo{
+    height: 130px;
+    width:270px;
+  }
+
+  .connect-wallet-container-img-name{
+    height: 150px;
+    width: 340px;
+  }
+}

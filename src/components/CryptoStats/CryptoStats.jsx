@@ -1,20 +1,12 @@
 import "./CryptoStats.css";
-// import areaChart from '../../../assets/icons8-area-chart.png'
 import candleSticks from "../../../assets/candlestick-chart.svg";
 import Button from "../Button/Button";
-import { motion} from "framer-motion";
-
 
 function CryptoStats() {
   return (
-    <div className="stats-div-wrap" >
-      <div className="stats-div" >
-        <motion.div 
-          className="stats-div-left"
-          initial={{ y: "100vw", opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ type: "spring", duration: 1.5, bounce: 0.2 }}
-        >
+    <div className="stats-div-wrap" id="stats-div-wrap">
+      <div className="stats-div">
+        <div className="stats-div-left">
           <div className="stats-div-left-in">
             <h1 className="stats-div-left-h1">This is WEB3, This is Crypto</h1>
             <p className="stats-div-left-p">
@@ -32,16 +24,11 @@ function CryptoStats() {
               Dont let this complexities stunt your amazing business, studio gmi
             </h4>
             <div className="button-to-more-wrap" id="button-to-more-wrap">
-              <Button text={"more"} color={"white"} />
+              <Button text={"Build at gmi"} color={"white"} />
             </div>
           </div>
-        </motion.div>
-        <motion.div
-          className="stats-div-right"
-          initial={{ y: "-100vw", opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ type: "spring", duration: 1.5, bounce: 0.2 }}
-        >
+        </div>
+        <div className="stats-div-right">
           <div className="stats-div-right-img">
             <img
               src={candleSticks}
@@ -49,7 +36,7 @@ function CryptoStats() {
               className="candle-stick-svg"
             />
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

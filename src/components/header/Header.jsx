@@ -5,21 +5,37 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Close from "@mui/icons-material/Close";
 import { useState } from "react";
 import NavBarOptions from "../NavBarOptions/NavBarOptions";
-import Button from "../Button/Button";
 
-function Header({ isMetaMask, account }) {
+function Header({
+  isMetaMask,
+  account,
+  connectWallet,
+  setConnectingWallet,
+}) {
   const [isNavBarOpen, setIsNavBarOpen] = useState(false);
-  const connectWallet = () => {
-    if (isMetaMask) console.log("connected");
-  };
 
   const navbarworks = () => {
     setIsNavBarOpen(!isNavBarOpen);
-    console.log("clicked");
+  };
+
+  const loadConnectWallet = async () => {
+    setConnectingWallet(true)
+    connectWallet();
+    if (account){
+      setConnectingWallet(false)
+    }else{
+      setTimeout(()=>{setConnectingWallet(false)},20000)
+      return
+    }
+    
   };
 
   return (
-    <div className={`header-div-wrap ${isNavBarOpen ? `header-div-wrap-ststic`: "" }`}>
+    <div
+      className={`header-div-wrap ${
+        isNavBarOpen ? `header-div-wrap-ststic` : ""
+      }`}
+    >
       <div className="header-div">
         <div className="header-div-inner">
           <div className="header-wrap">
@@ -29,26 +45,32 @@ function Header({ isMetaMask, account }) {
             </div>
 
             <div className="header-right">
-              <div className="header-right-welcome">
-                <div className="header-right-welcome-text">welcome</div>
+              <div className="header-right-crypto">
+                <a href="#stats-div-wrap">
+                  <div className="header-right-welcome-text">CRYPTO</div>
+                </a>
               </div>
-              <div className="header-right-clients">
-                <div className="header-right-clients-text">Clients</div>
+              <div className="header-right-nft">
+                <a href="#nft-div">
+                  <div className="header-right-clients-text">NFT</div>
+                </a>
+              </div>
+              <div className="header-right-services">
+                <a href="#usapart-div">
+                  <div className="header-right-clients-text">SERVICES</div>
+                </a>
               </div>
 
               <div className="header-right-connect-wrap">
-                <div className="header-right-connect">
-                  {/* {account ? (
-                    <div
-                      className="header-right-connect-text"
-                      onClick={connectWallet}
-                    >
-                      {isMetaMask ? "Connect" : "Install MetaMask"}
-                    </div>
+                <div
+                  className="header-right-connect"
+                  onClick={loadConnectWallet}
+                >
+                  {!account ? (
+                    <div>{isMetaMask ? "Connect" : "Install MetaMask"}</div>
                   ) : (
-                    "Account is : 0X...."
-                  )} */}
-                  <Button text={"connect"} color={"white"} />
+                    account
+                  )}
                 </div>
               </div>
             </div>

@@ -1,49 +1,20 @@
 import "./Hero.css";
 import innovative from "../../../assets/blockchain-logo-250.svg";
 import Button from "../Button/Button";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
 
 function Hero() {
-  const { ref, inView } = useInView();
-  const animationOne = useAnimation();
-  const animationTwo = useAnimation();
-
-  useEffect(() => {
-    if (inView) {
-      animationOne.start({
-        x: 0,
-        transition: {
-          type: "spring",
-          duration: 1.5,
-          bounce: 0.2,
-        },
-      });
-    }
-
-    if (!inView) {
-      animationOne.start({
-        x: "-100vw ",
-      });
-    }
-  }, [inView]);
-
   return (
-    <div className="hero-div" ref={ref}>
+    <div className="hero-div">
       <div className="hero-div-wrap">
-        <motion.div className="hero-div-left" animate={animationOne}>
+        <div className="hero-div-left">
           <img
             src={innovative}
             alt="this is innovation"
             className="innovative-hero"
           />
-        </motion.div>
-        <motion.div
+        </div>
+        <div
           className="hero-div-right"
-          initial={{ x: "100vw" }}
-          animate={{ x: 0 }}
-          transition={{ type: "spring", duration: 1.5, bounce: 0.2 }}
         >
           <div className="hero-div-right-div">
             <h1 className="hero-div-right-div-h1">Build. Grow. Pivot.</h1>
@@ -67,10 +38,10 @@ function Hero() {
               </div>
             </div>
             <div className="button-to-connect-wrap">
-              <Button text={"build at gmi"} color={"green"} />
+              <a href="mailto: Hi@studio-gmi.com"><Button text={"build at gmi"} color={"green"} /></a>
             </div>
           </div>
-        </motion.div>
+        </div>
         <div className="hero-space"></div>
       </div>
     </div>
