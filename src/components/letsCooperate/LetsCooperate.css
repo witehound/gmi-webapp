@@ -21,7 +21,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 /* lets-cooperate-div-inner-top */
@@ -98,8 +98,15 @@
   flex: 1;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   display: none;
+}
+
+.lets-cooperate-div-inner-round-buttons-in {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .lets-cooperate-div-inner-bottom-round-team,
@@ -127,40 +134,33 @@
 
 /* mobile */
 
-@media only screen and (max-width: 450px) {
-  .lets-cooperate-div {
-    height: 500px;
-  }
+@media only screen and (max-width: 1160px) {
   .lets-cooperate-div-inner {
-    height: 95%;
-    width: 95%;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .lets-cooperate-div {
+    height: 600px;
   }
 
-  .lets-cooperate-div-inner-bottom {
-    flex: 7;
+  .lets-cooperate-div-inner-top {
+    flex: 2;
   }
 
-  .lets-cooperate-div-inner-top-h1 {
-    margin-top: 5%;
-    width: 80%;
-    font-size: 25px;
-  }
-
-  .lets-cooperate-div-inner-top-p {
-    width: 90%;
-  }
-  .lets-cooperate-div-inner-bottom-display-inner {
-    font-size: 13px;
-    width: 95%;
-    height: 95%;
-  }
-
-  .lets-cooperate-div-inner-bottom {
-    flex: 6;
+  .lets-cooperate-div-inner-bottom-display {
+    flex: 3;
   }
 
   .lets-cooperate-div-inner-bottom-buttons {
     display: none;
+  }
+
+  .lets-cooperate-div-inner-top-p {
+    text-align: center;
+    height: 40%;
+    width: 70%;
   }
 
   .lets-cooperate-div-inner-round-buttons {
@@ -169,4 +169,23 @@
     align-items: center;
     justify-content: space-evenly;
   }
+}
+
+@media only screen and (max-width: 500px) {
+  .lets-cooperate-div-inner-top-h1 {
+    font-size: 1.6rem;
+  }
+
+  .lets-cooperate-div-inner-round-buttons-in{
+    width: 70%;
+  }
+
+  .lets-cooperate-div-inner-bottom-round-team,
+.lets-cooperate-div-inner-bottom-round-project,
+.lets-cooperate-div-inner-bottom-round-Time,
+.lets-cooperate-div-inner-bottom-round-customized {
+  height: 17px;
+  width: 17px;
+  outline: none;
+}
 }

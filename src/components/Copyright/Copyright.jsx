@@ -8,11 +8,11 @@ function Copyright() {
        Contact
      </div>
      <div className="copy-right-div-at">
-       @Studi Gmi
+       @GMI_STUDIOS
      </div>
      </div>
      <div className="copy-right-div-bottom">
-        © Copyright 2022 Studio GMI. All Rights Reserved
+       Privacy © Copyright 2022 Studio GMI. All Rights Reserved
      </div>
       
     </div>

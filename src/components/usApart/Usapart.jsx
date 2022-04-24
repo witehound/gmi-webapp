@@ -64,7 +64,6 @@ function Usapart() {
         opacity: 0,
       });
     }
-    console.log(inView);
   }, [inView]);
 
   return (
