@@ -36,7 +36,7 @@ function Hero() {
                 <p className="hero-div-right-div-p">
                   Let us guide you through the maze that is blockchain
                   technologies to create and strategize an effective way for
-                  your business to enter the world of web3.
+                  your business to enter the world of web3
                 </p>
                 <p className="hero-div-right-div-p">
                   Our goal is to help businesses transition into WEB3 and Next
