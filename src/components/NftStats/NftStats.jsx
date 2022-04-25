@@ -8,7 +8,7 @@ function Hero() {
       <div className="nft-div-wrap">
         <div className="nft-div-left">
           <div className="nft-div-left-in-top">
-           <img src={nftstore} alt="" />
+           <img src={nftstore} alt="" className="nft-store-img"/>
           </div>
         </div>
         <div className="nft-div-right">

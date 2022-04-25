@@ -35,6 +35,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nft-div-left-in-bottom {
@@ -45,9 +46,9 @@
   justify-content: flex-end;
 }
 
-.nft-nft-img {
-  width: 100%;
-  height: 60%;
+.nft-store-img{
+  height: 40rem;
+  width: 40rem;
 }
 
 /* hero-div-right */
@@ -118,6 +119,11 @@
   .nft-div-right-div {
     width: 80%;
   }
+
+  .nft-store-img{
+    height: 36rem;
+    width: 35rem;
+  }
 }
 
 @media only screen and (max-width: 1250px) {
@@ -129,9 +135,9 @@
     font-size: 2.4rem;
   }
 
-  .nft-nft-img {
-    height: 15rem;
-    width: 15rem;
+  .nft-store-img{
+    height: 35rem;
+    width: 34rem;
   }
   .nft-div-right-div {
     width: 85%;
@@ -142,12 +148,17 @@
   .nft-div-right-div-p {
     font-size: 1rem;
   }
+
+  .nft-store-img{
+    height: 32rem;
+    width: 32rem;
+  }
 }
 
 @media only screen and (max-width: 1010px) {
-  .nft-nft-img {
-    height: 13rem;
-    width: 13rem;
+  .nft-store-img{
+    height: 30rem;
+    width: 30rem;
   }
 
   .nft-div-left-in-top {
@@ -171,6 +182,11 @@
   .nft-div-right-div {
     height: 80%;
   }
+
+  .nft-store-img{
+    height: 29rem;
+    width: 29rem;
+  }
 }
 
 @media only screen and (max-width: 890px) {
@@ -186,9 +202,9 @@
     flex-direction: column;
   }
 
-  .nft-nft-img {
-    height: 16rem;
-    width: 16rem;
+  .nft-store-img{
+    height: 29rem;
+    width: 36rem;
   }
 
   .nft-div-left-in-bottom {
@@ -213,25 +229,37 @@
     height: 13rem;
     width: 13rem;
   }
+
+  .nft-store-img{
+    height: 29rem;
+    width: 34rem;
+  }
+
 }
 
 @media only screen and (max-width: 620px) {
   .nft-div-right-div-p {
     font-size: 0.8rem;
   }
+
+
+  .nft-store-img{
+    height: 27rem;
+    width: 32rem;
+  }
 }
 
 @media only screen and (max-width: 590px){
-  .nft-nft-img{
-    height: 12rem;
-    width: 12rem;
+  .nft-store-img{
+    height: 27rem;
+    width: 30rem;
   }
 }
 
 @media only screen and (max-width: 500px){
-  .nft-nft-img{
-    height: 10rem;
-    width: 10rem;
+  .nft-store-img{
+    height: 24rem;
+    width: 25rem;
   }
 
   .nft-div-right-div{
@@ -258,9 +286,12 @@
   }
 }
 
-@media only screen and (max-width: 402px){
-  .nft-div-left{
-    margin-bottom: 10%;
+
+
+@media only screen and (max-width: 420px){
+  .nft-store-img{
+    height: 23rem;
+    width: 23rem;
   }
 
 }
@@ -278,5 +309,10 @@
 
   .nft-div-left-in-bottom {
     margin-right: 0;
+  }
+
+  .nft-store-img{
+    height: 21rem;
+    width: 21rem;
   }
 }

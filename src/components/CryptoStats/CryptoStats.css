@@ -109,6 +109,10 @@
   .stats-div-left-p {
     font-size: 1rem;
   }
+
+  .stats-div-wrap {
+    height: 900px;
+  }
 }
 
 @media only screen and (max-width: 970px) {
@@ -151,6 +155,11 @@
   .stats-div-left-h4 {
     align-items: center;
   }
+
+  .candle-stick-svg{
+    height: 30rem;
+    width: 30rem;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -179,11 +188,22 @@
   .stats-div-left{
     flex: 1.7;
   }
+
+  .candle-stick-svg{
+    height: 27rem;
+    width: 30rem;
+  }
 }
+
 
 @media only screen and (max-width: 520px) {
   .stats-div-left-p {
     margin-bottom: 4%;
+  }
+
+  .candle-stick-svg{
+    height: 25rem;
+    width: 27rem;
   }
 }
 
@@ -199,12 +219,22 @@
   .stats-div-left {
     justify-content: space-between;
   }
+
+  .candle-stick-svg{
+    height: 24rem;
+    width: 26rem;
+  }
 }
 
 
 @media only screen and (max-width: 420px){
   .stats-div-left-p{
     font-size: 0.9rem;
+  }
+
+  .candle-stick-svg{
+    height: 20rem;
+    width: 20rem;
   }
 }
 

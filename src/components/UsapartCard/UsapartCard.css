@@ -7,7 +7,6 @@
     display: flex;
     flex-direction: column;
     color: white;
-    overflow-y: scroll;
 }
 
 .usapart-card-div-top{
@@ -45,13 +44,11 @@
         width: 320px;
         height: 300px;
     }
-
     .usapart-card-div-story-h2{
-        font-size: 2.4rem;
+        font-size: 1rem;
     }
-
     .usapart-card-div-story-p{
-        font-size: 1.1rem;
+        font-size: 0.65rem;
     }
 
 }
@@ -63,11 +60,10 @@
     }
 
     .usapart-card-div-story-h2{
-        font-size: 2.3rem;
-    }
-
-    .usapart-card-div-story-p{
         font-size: 1rem;
+    }
+    .usapart-card-div-story-p{
+        font-size: 0.65rem;
     }
 }
 
