@@ -193,6 +193,10 @@
   .usapart-div-top-p{
     width: 80%;
   }
+
+  .usapart-div-top-h1 {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-width: 604px) {
@@ -247,7 +251,7 @@
 
 @media only screen and (max-width: 302px) {
   .usapart-div-top-h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   .usapart-div-top-p{
