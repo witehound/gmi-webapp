@@ -5,7 +5,6 @@ import CryptoStats from "../../components/CryptoStats/CryptoStats";
 import NftStats from "../../components/NftStats/NftStats";
 import logo from "../../../assets/gmi_Original_Wide copy.svg";
 import Usapart from "../../components/usApart/Usapart";
-import ContactForm from "../../components/ContactForm/ContactForm";
 import Copyright from "../../components/Copyright/Copyright";
 import { motion } from "framer-motion";
 
@@ -35,7 +34,6 @@ function Home({
           <CryptoStats />
           <NftStats />
           <Usapart />
-          <ContactForm />
           <Copyright />
         </div>
       )}

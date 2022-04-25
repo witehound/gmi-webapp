@@ -27,11 +27,12 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding: 30px;
 }
 
 .nft-div-left-in-top {
-  width: 80%;
-  height: 30%;
+  height: 100%;
+  width: 100%;
   display: flex;
   align-items: center;
 }
@@ -190,10 +191,6 @@
     width: 16rem;
   }
 
-  .nft-div-left-in-top {
-    margin-left: 10%;
-  }
-
   .nft-div-left-in-bottom {
     margin-right: 10%;
   }
@@ -205,9 +202,6 @@
     width: 14rem;
   }
 
-  .nft-div-left-in-top {
-    margin-left: 13%;
-  }
 
   .nft-div-left-in-bottom {
     margin-right: 13%;
@@ -268,6 +262,7 @@
   .nft-div-left{
     margin-bottom: 10%;
   }
+
 }
 
 @media only screen and (max-width: 402px){

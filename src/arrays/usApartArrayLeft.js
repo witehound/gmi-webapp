@@ -6,7 +6,7 @@ const usApartArray = [
   {
     img: rocket,
     h2: "Virtual Assets",
-    p: "Wearables will be the next social currency. Currently, every year $54 billion is spent on virtual goods, almost double the amount spent buying music. A prime example of this is Under Armour, who created 2973 metaverse wearable sneakers with Steph Curry (Genesis Curry Flow) that generated $1m for them in less than 30 minutes.Wearables will be the next social currency. Currently, every year $54 billion is spent on virtual goods, almost double the amount spent buying music. A prime example of this is Under Armour, who created 2973 metaverse wearable sneakers with Steph Curry (Genesis Curry Flow) that generated $1m for them in less than 30 minutes.",
+    p: "Wearables will be the next social currency. Currently, every year $54 billion is spent on virtual goods, almost double the amount spent buying music. A prime example of this is Under Armour, who created 2973 metaverse wearable sneakers with Steph Curry (Genesis Curry Flow) that generated $1m for them in less than 30 minutes.",
     i: 1,
   },
   {
