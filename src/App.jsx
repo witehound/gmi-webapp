@@ -8,30 +8,32 @@ function App() {
   const { ethereum } = window;
   const [isMetaMask, setIsMetaMask] = useState(false);
   const [account, setAccount] = useState(null);
-  const [accoutAddress, setAccountAddress] =useState('')
+  const [accoutAddress, setAccountAddress] = useState("");
   const [connectingWallet, setConnectingWallet] = useState(false);
 
   const connectWallet = async () => {
-    if (!ethereum) return;
+    if (!ethereum) {
+      setConnectingWallet(false);
+    }
     const accounts = await ethereum.request({ method: "eth_requestAccounts" });
     setAccount(accounts[0]);
   };
 
   const checkConnection = async () => {
     const accounts = await ethereum.request({ method: "eth_accounts" });
-    setAccount(accounts[0])
-  }
+    setAccount(accounts[0]);
+  };
 
   const sliceAddress = () => {
-    setAccountAddress(`${account.slice(0,5)}.......${account.slice(-4)}`)
-  }
+    setAccountAddress(`${account.slice(0, 5)}.......${account.slice(-4)}`);
+  };
 
   useEffect(() => {
     if (ethereum) {
       setIsMetaMask(true);
     }
-    checkConnection()
-    if(account) sliceAddress()
+    checkConnection();
+    if (account) sliceAddress();
   }, [account]);
 
   return (
@@ -48,6 +50,7 @@ function App() {
                 setConnectingWallet={setConnectingWallet}
                 account={account}
                 accoutAddress={accoutAddress}
+                ethereum={ethereum}
               />
             }
           />

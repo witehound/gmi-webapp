@@ -11,7 +11,8 @@ function Header({
   account,
   connectWallet,
   setConnectingWallet,
-  accoutAddress
+  accoutAddress,
+  ethereum
 }) {
   const [isNavBarOpen, setIsNavBarOpen] = useState(false);
 
@@ -20,6 +21,7 @@ function Header({
   };
 
   const loadConnectWallet = async () => {
+    if(!ethereum) return
     setConnectingWallet(true)
     connectWallet();
     if (account){

@@ -5,8 +5,13 @@
   background-color: white;
   z-index: 999;
   flex-direction: column;
-  height: 150px;
-  padding: 20px;
+  height: 170px;
+  padding-bottom: 20px;
+}
+
+.copy-right-div-img{
+  height: 100px;
+  width: 500px;
 }
 
 .copy-right-div-top {

@@ -9,7 +9,7 @@
   z-index: 99;
   width: 100%;
   flex-direction: column;
-  /* height: 80px; */
+  box-shadow: 0 5px 15px rgba(0, 0, 0 , 0.2);
 }
 
 .header-div-inner {

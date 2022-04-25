@@ -1,5 +1,5 @@
 import "./CryptoStats.css";
-import candleSticks from "../../../assets/candlestick-chart.svg";
+import candleSticks from "../../../assets/gmi_Black_Portrait copy.svg";
 import Button from "../Button/Button";
 
 function CryptoStats() {

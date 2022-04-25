@@ -1,12 +1,17 @@
 import "./Copyright.css";
+import candleSticks from "../../../assets/gmi_Black_Portrait copy.svg";
 
 function Copyright() {
   return (
     <div className="copy-right-div">
       <div className="copy-right-div-top">
-        <div className="copy-right-div-conatct">Contact</div>
+        <img
+          src={candleSticks}
+          alt="candle sticks chart"
+          className="copy-right-div-img"
+        />
         <a href="mailto: Hi@studio-gmi.com">
-          <div className="copy-right-div-at">@GMI_STUDIOS</div>
+          <div className="copy-right-div-at">Contact @GMI_STUDIOS</div>
         </a>
       </div>
       <div className="copy-right-div-bottom">
