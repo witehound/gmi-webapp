@@ -1,5 +1,5 @@
 import "./CryptoStats.css";
-import web3ready from "../../../assets/gmi_Black_Portrait copy.svg";
+import web3ready from "../../../assets/Block 2.svg";
 import Button from "../Button/Button";
 
 function CryptoStats() {
@@ -9,7 +9,7 @@ function CryptoStats() {
         <div className="stats-div-left">
           <div className="stats-div-left-in">
             <h1 className="stats-div-left-h1">
-              TWhat is the web3 opportunity?
+              What is the web3 opportunity?
             </h1>
             <p className="stats-div-left-p">
               Web3 is the next generational leap in technology providing,

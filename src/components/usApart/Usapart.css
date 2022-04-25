@@ -132,6 +132,18 @@
   }
 }
 
+@media only screen and (max-width: 1050px) {
+  .usapart-div-top-h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .usapart-div-top-h1 {
+    font-size: 2.6rem;
+  }
+}
+
 @media only screen and (max-width: 1000px){
   .usapart-div{
     height: 850px;
@@ -144,6 +156,16 @@
 
   .usapart-div-bottom{
     margin-top: 4%;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .usapart-div-top-h1 {
+    font-size: 2.2rem;
+  }
+
+  .usapart-div-top-p {
+    font-size: 0.9rem;
   }
 }
 
@@ -173,6 +195,18 @@
   }
 }
 
+@media only screen and (max-width: 604px) {
+  .usapart-div-top-p{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 602px) {
+  .usapart-div-top-p {
+    font-size: 0.9rem;
+  }
+}
+
 @media only screen and (max-width: 481px){
   .usapart-div-top-p{
     width: 85%;
@@ -180,10 +214,6 @@
 }
 
 @media only screen and (max-width: 450px){
-  .usapart-div{
-    font-size: 13px;
-  }
-
   .usapart-div-bottom-inner{
     flex-direction: column;
   }
@@ -197,8 +227,30 @@
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .usapart-div-top-p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 371px) {
+  .usapart-div-top-p {
+    font-size: 0.8rem;
+  }
+}
+
 @media only screen and (max-width: 320px){
   .usapart-div-bottom-right{
     width: 250px;
+  }
+}
+
+@media only screen and (max-width: 302px) {
+  .usapart-div-top-h1 {
+    font-size: 2rem;
+  }
+
+  .usapart-div-top-p{
+    font-size: 0.8rem;
   }
 }

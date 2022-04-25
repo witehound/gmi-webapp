@@ -3,11 +3,10 @@ import Header from "../../components/header/Header";
 import Hero from "../../components/Hero/Hero";
 import CryptoStats from "../../components/CryptoStats/CryptoStats";
 import NftStats from "../../components/NftStats/NftStats";
-import nameImg from "../../../assets/gmi-_Wordmark_Black.svg";
 import logo from "../../../assets/gmi_Original_Wide copy.svg";
 import Usapart from "../../components/usApart/Usapart";
+import ContactForm from "../../components/ContactForm/ContactForm";
 import Copyright from "../../components/Copyright/Copyright";
-import LetsCooperate from "../../components/letsCooperate/LetsCooperate";
 import { motion } from "framer-motion";
 
 function Home({
@@ -36,7 +35,7 @@ function Home({
           <CryptoStats />
           <NftStats />
           <Usapart />
-          <LetsCooperate />
+          <ContactForm />
           <Copyright />
         </div>
       )}
