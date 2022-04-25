@@ -3,6 +3,8 @@ import candleSticks from "../../../assets/gmi_Black_Portrait copy.svg";
 import logo from "../../../assets/gmi-_Green_Symbol.svg";
 import nameImg from "../../../assets/gmi-_Wordmark_Black.svg";
 import web3ready from '../../../assets/gmi_Black_Portrait copy.svg'
+import twitter from '../../../assets/twitter-logo.svg'
+import linkedin from '../../../assets/linkedin.svg'
 
 
 function Copyright() {
@@ -28,12 +30,16 @@ function Copyright() {
           href="https://mobile.twitter.com/studio_gmi"
           className="copy-right-div-top-socials-twitter"
         >
+        <img src={twitter} alt="" className="the-twitter-logo"  />
+        <div className="social-space">        </div>
           Twitter
         </a>
         <a
           href="https://www.linkedin.com/company/studiogmi"
           className="copy-right-div-top-socials-linkdln"
         >
+        <img src={linkedin} alt="" className="the-linkedin-logo"  />
+        <div className="social-space">        </div>
           Linkedin
         </a>
       </div>
