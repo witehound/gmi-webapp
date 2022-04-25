@@ -1,5 +1,5 @@
 import "./Hero.css";
-import innovative from "../../../assets/block 1.svg";
+import innovative from "../../../assets/Block 1.svg";
 import web3ready from "../../../assets/gmi_Black_Portrait copy.svg";
 import Button from "../Button/Button";
 
