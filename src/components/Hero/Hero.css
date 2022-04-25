@@ -281,6 +281,10 @@
     width: 38rem;
     height: 16rem;
   }
+
+  .hero-div{
+    height: 1150px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
