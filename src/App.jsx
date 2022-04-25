@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./Pages/Home/Home";
+import Access from './Pages/Access/Access'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 
 function App() {
   const { ethereum } = window;
@@ -54,6 +54,7 @@ function App() {
               />
             }
           />
+          <Route path="/web3" element={<Access/>}/>
         </Routes>
       </Router>
     </div>

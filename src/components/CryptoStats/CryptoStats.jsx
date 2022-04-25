@@ -29,7 +29,7 @@ function CryptoStats() {
               journey into blockchain technology.
             </h4>
             <div className="button-to-more-wrap" id="button-to-more-wrap">
-              <Button text={"Build at gmi"} color={"white"} />
+              <Button text={"Talk to us"} color={"white"} />
             </div>
           </div>
         </div>

@@ -36,7 +36,7 @@ function Hero() {
             </div>
             <div className="space-nft"></div>
             <div className="nft-div-right-div-button">
-              <Button text={"Build at gmi"} color={"green"} />
+              <Button text={"Say Hi"} color={"green"} />
             </div>
           </div>
         </div>

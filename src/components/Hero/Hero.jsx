@@ -45,7 +45,7 @@ function Hero() {
               </div>
             </div>
             <div className="button-to-connect-wrap">
-              <Button text={<img className="button-to-connect-wrap-img" src={web3ready}/>} color={"green"} />
+              <Button text={'Get in Touch'} color={"green"} />
             </div>
           </div>
         </div>

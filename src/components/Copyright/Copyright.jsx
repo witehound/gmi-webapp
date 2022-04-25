@@ -1,7 +1,6 @@
 import "./Copyright.css";
 import web3ready from "../../../assets/web3ready.svg";
-import logo from "../../../assets/gmi-_Green_Symbol.svg";
-import nameImg from "../../../assets/gmi-_Wordmark_Black.svg";
+import logo from "../../../assets/gmi-_Original_joined.svg";
 import twitter from '../../../assets/twitter-logo.svg'
 import linkedin from '../../../assets/linkedin.svg'
 
@@ -12,7 +11,6 @@ function Copyright() {
       <div className="copy-right-div-top">
         <div className="copy-right-div-top-logo">
           <img src={logo} className="copy-right-div-top-logo-img"/>
-          <img src={nameImg}  className="copy-right-div-top-logo-img"/>
         </div>
         <div className="copy-right-div-img-web3">
           <img
@@ -22,7 +20,7 @@ function Copyright() {
         />
         </div>
         <a href="mailto: Hi@studio-gmi.com">
-          <div className="copy-right-div-at">Contact @GMI_STUDIOS</div>
+          <div className="copy-right-div-at">Get in Touch</div>
         </a>
       </div>
       <div className="copy-right-div-top-socials">

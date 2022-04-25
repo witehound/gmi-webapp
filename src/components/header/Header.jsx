@@ -8,33 +8,43 @@ function Header({
   connectWallet,
   setConnectingWallet,
   accoutAddress,
-  ethereum
+  ethereum,
 }) {
   const loadConnectWallet = async () => {
-    if(!ethereum) return
-    setConnectingWallet(true)
+    if (!ethereum) return;
+    setConnectingWallet(true);
     connectWallet();
-    if (account){
-      setConnectingWallet(false)
-    }else{
-      setTimeout(()=>{setConnectingWallet(false)},15000)
-      return
+    if (account) {
+      setConnectingWallet(false);
+    } else {
+      setTimeout(() => {
+        setConnectingWallet(false);
+      }, 15000);
+      return;
     }
-    
   };
 
   return (
-    <div
-      className='header-div-wrap'
-    >
+    <div className="header-div-wrap">
       <div className="header-div">
         <div className="header-div-inner">
           <div className="header-wrap">
-            <div className="header-left">
-              <img src={logo} alt="gmi-logo" className="gmi-header-logo" />
-              <img src={nameImg} alt="gmi-logo" className="header-left-title" />
-            </div>
             <div className="header-right">
+              <div className="header-left">
+                <img src={logo} alt="gmi-logo" className="gmi-header-logo" />
+                <img
+                  src={nameImg}
+                  alt="gmi-logo"
+                  className="header-left-title"
+                />
+              </div>
+              {account && <div className="header-right-connect-wrap">
+                <div
+                  className="header-right-connect"
+                >
+                  <div>Welcome</div>
+                </div>
+              </div>}
               <div className="header-right-connect-wrap">
                 <div
                   className="header-right-connect"
