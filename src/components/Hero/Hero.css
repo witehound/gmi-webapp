@@ -6,9 +6,7 @@
   color: white;
   background-color: #1b2130;
   top: 70px;
-  font-size: 40px;
   height: 800px;
-
 }
 
 .hero-div-wrap {
@@ -19,6 +17,10 @@
   background-image: url("../../../assets/gmi-alltogether\ copy.ai");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.space-hero-hero{
+  flex: 0.3;
 }
 
 /* hero-div-wrap */
@@ -45,16 +47,16 @@
 /* hero-div-right */
 
 .hero-div-right-div {
-  height: 80%;
+  height: 100%;
   width: 70%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
-  font-size: 25px;
+  font-size: 2rem;
 }
 
-.hero-div-right-div-h1{
-  font-size: 3rem;
+.hero-div-right-div-h1 {
+  font-size: 2.5rem;
   flex: 1;
   display: flex;
   align-items: flex-end;
@@ -68,9 +70,11 @@
 }
 
 .button-to-connect-wrap {
-  flex: 1;
+  flex: 0.7;
   background-color: #1b2130;
   font-size: 16px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .button-to-connect {
@@ -88,159 +92,198 @@
 }
 
 .hero-div-right-div-p {
-  font-size: 1.4rem;
-  line-height: 1.9rem;
+  font-size: 1.2rem;
   font-weight: 150;
 }
 
-.hero-space{
+.hero-space {
   height: 10%;
+}
+
+.button-to-connect-wrap-img{
+  height: 100%;
+  width: 100%;
 }
 
 /* mobile */
 
 @media only screen and (max-width: 1484px) {
-  .hero-div-right-div{
+  .hero-div-right-div {
     width: 85%;
   }
 }
 
-@media only screen and (max-width: 1150px){
-  .hero-div-right-div{
-    height: 85% ;
-  }
-  .hero-div-right{
-    width: 90%;
-    
+@media only screen and (max-width: 1250px) {
+  .hero-div-right-div-h1 {
+    font-size: 2.4rem;
   }
 
-  .hero-div-right-div-p{
-    font-size: 1.2rem;
-  }
-}
-
-@media only screen and (max-width: 1050px){
-  .hero-div-right-div-h1{
-    font-size: 2.8rem;
-  }
-}
-
-@media only screen and (max-width: 970px){
-  .hero-div-right-div-h1{
-    font-size: 2.6rem;
-  }
-
-  .hero-div-right-div-p{
+  .hero-div-right-div-p {
     font-size: 1.1rem;
   }
+}
 
-  .hero-div-right{
+@media only screen and (max-width: 1150px) {
+  .hero-div-right-div {
+    height: 85%;
+  }
+  .hero-div-right {
+    width: 90%;
+  }
+
+  .hero-div-right-div-h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-div-right-div-p {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .hero-div-right-div-h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media only screen and (max-width: 1010px) {
+  .hero-div-right-div-h1 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .hero-div-right-div-h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-div-right-div-p {
+    font-size: 0.9rem;
+  }
+
+  .hero-div-right {
     margin-left: 4%;
   }
 }
 
-@media only screen and (max-width: 890px){
-  .hero-div{
-    height:1000px;
+@media only screen and (max-width: 890px) {
+  .hero-div {
+    height: 1050px;
   }
 
-  .hero-div-wrap{
-   flex-direction: column; 
-   height: 85%;
-   margin-top: 10%;
+  .hero-div-wrap {
+    flex-direction: column;
+    height: 85%;
+    margin-top: 10%;
   }
 
-  .hero-div-left{
+  .hero-div-left {
     flex: 1;
   }
 
-  .hero-div-right{
-   width: 100%;
+  .hero-div-right {
+    width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 9%;
   }
 
-  .innovative-hero{
+  .hero-div-right-div-p {
+    margin-top: 4%;
+  }
+
+  .innovative-hero {
     height: 22rem;
     width: 22rem;
   }
 
-  .button-to-connect-wrap{
+  .button-to-connect-wrap {
     margin-top: 9%;
   }
 
-  @media only screen and (max-width: 604px){
-    .innovative-hero{
+  @media only screen and (max-width: 690px) {
+    .hero-div{
+      height: 1100px;
+    }
+  }
+
+  @media only screen and (max-width: 604px) {
+    .innovative-hero {
       width: 20rem;
       height: 20rem;
     }
 
-    .hero-div-right-div-p{
+    .hero-div-right-div-p {
       font-size: 1rem;
     }
   }
 
-  @media only screen and (max-width: 530px){
-    .innovative-hero{
+  @media only screen and (max-width: 602px) {
+    .hero-div-right-div-p {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media only screen and (max-width: 530px) {
+    .innovative-hero {
       width: 19rem;
       height: 19rem;
     }
   }
-  
-  @media only screen and (max-width: 478px){
-    .hero-div{
-      height: 950px;
-    }
-    .innovative-hero{
+
+  @media only screen and (max-width: 478px) {
+    .innovative-hero {
       width: 15rem;
       height: 15rem;
     }
 
-    .hero-div-right{
+    .hero-div-wrap{
+      height: 95%;
+    }
+
+    .hero-div-left{
+      margin-top: 20%;
+    }
+
+    .hero-div-right {
       margin-top: 8%;
     }
   }
 }
 
-@media only screen and (max-width: 400px){
-  .hero-div{
-    height: 950px;
-  }
-
-  .hero-div-right-div-p{
+@media only screen and (max-width: 400px) {
+  .hero-div-right-div-p {
     font-size: 0.9rem;
   }
 }
 
-@media only screen and (max-width: 371px){
-  .hero-div-right-div-p{
+@media only screen and (max-width: 371px) {
+  .hero-div-right-div-p {
     font-size: 0.8rem;
   }
 }
 
-@media only screen and (max-width: 324px){
-  .hero-div{
+@media only screen and (max-width: 324px) {
+  .hero-div {
     height: 1000px;
   }
 }
 
-@media only screen and (max-width: 302px){
-  .hero-div{
+@media only screen and (max-width: 302px) {
+  .hero-div {
     height: 900px;
   }
 
-  .innovative-hero{
+  .innovative-hero {
     width: 10rem;
     height: 10rem;
   }
 
-  .hero-div-right-div-h1{
+  .hero-div-right-div-h1 {
     font-size: 2rem;
   }
 
-  .hero-div-right-div-p{
+  .hero-div-right-div-p {
     font-size: 0.8rem;
   }
-
 }

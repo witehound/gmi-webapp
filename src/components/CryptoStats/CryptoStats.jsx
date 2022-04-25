@@ -1,5 +1,5 @@
 import "./CryptoStats.css";
-import candleSticks from "../../../assets/gmi_Black_Portrait copy.svg";
+import web3ready from "../../../assets/gmi_Black_Portrait copy.svg";
 import Button from "../Button/Button";
 
 function CryptoStats() {
@@ -8,20 +8,25 @@ function CryptoStats() {
       <div className="stats-div">
         <div className="stats-div-left">
           <div className="stats-div-left-in">
-            <h1 className="stats-div-left-h1">This is WEB3, This is Crypto</h1>
+            <h1 className="stats-div-left-h1">
+              TWhat is the web3 opportunity?
+            </h1>
             <p className="stats-div-left-p">
-              A cryptocurrency is a digital currency that is created and managed
-              through the use of advanced encryption techniques known as
-              cryptography.
+              Web3 is the next generational leap in technology providing,
+              amongst many other things, Proof of ownership, decentralised and
+              transparent transactions and data, streamlined/dynamic integration
+              of assets and browsing.
             </p>
             <p className="stats-div-left-p">
-              While the number of merchants who accept cryptocurrencies has
-              steadily increased, they are still very much in the minority. For
-              cryptocurrencies to become more widely used, they have to first
-              gain widespread acceptance among consumers.
+              This technology creates opportunities for new revenue streams to
+              existing and new clients which can be distributed across a
+              multitude of industries.
             </p>
-            <h4 className="stats-div-left-h4">
-              Dont let this complexities stunt your amazing business, studio gmi
+            <h4 className="stats-div-left-p">
+              Web3 is at the beginning of a new era in internet technology and
+              will refine and develop over time. Every opportunity right now
+              will be unique and we’d love the chance to discuss your personal
+              journey into blockchain technology.
             </h4>
             <div className="button-to-more-wrap" id="button-to-more-wrap">
               <Button text={"Build at gmi"} color={"white"} />
@@ -31,7 +36,7 @@ function CryptoStats() {
         <div className="stats-div-right">
           <div className="stats-div-right-img">
             <img
-              src={candleSticks}
+              src={web3ready}
               alt="candle sticks chart"
               className="candle-stick-svg"
             />

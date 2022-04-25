@@ -43,7 +43,7 @@
 .stats-div-left-h1 {
   height: 20%;
   line-height: 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   display: flex;
   align-items: center;
 }
@@ -91,9 +91,23 @@
 
 /* mobile */
 
+@media only screen and (max-width: 1250px) {
+  .stats-div-left-h1 {
+    font-size: 2.4rem;
+  }
+  
+  .stats-div-left-p {
+    font-size: 1.1rem;
+  }
+}
+
 @media only screen and (max-width: 1150px) {
-  .stats-div-left-in {
-    width: 85%;
+  .stats-div-left-h1 {
+    font-size: 2.4rem;
+  }
+  
+  .stats-div-left-p {
+    font-size: 1rem;
   }
 }
 
@@ -101,8 +115,13 @@
   .stats-div-left-in {
     height: 85%;
   }
+
+  .stats-div-left-h1 {
+    font-size: 2.2rem;
+  }
+
   .stats-div-left-p {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 }
 
@@ -148,6 +167,10 @@
 @media only screen and (max-width: 620px) {
   .stats-div-left-h4 {
     margin-top: 9%;
+  }
+
+  .stats-div-left-p{
+    font-size: 0.8rem;
   }
 
   .stats-div-right{

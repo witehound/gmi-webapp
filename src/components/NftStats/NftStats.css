@@ -1,6 +1,6 @@
 .nft-div {
   width: 100%;
-  height: 600px;
+  height: 900px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +12,7 @@
 }
 
 .nft-div-wrap {
-  height: 90%;
+  height: 95%;
   width: 100%;
   background-color: #1b2130;
   background-size: cover;
@@ -59,7 +59,7 @@
 }
 
 .nft-div-right-div {
-  height: 70%;
+  height: 80%;
   width: 70%;
   padding: 5px;
   display: flex;
@@ -71,7 +71,7 @@
   flex: 1;
   display: flex;
   align-items: flex-end;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .nft-div-right-div-p-wrap {
@@ -82,7 +82,7 @@
 }
 
 .nft-div-right-div-p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 1.9rem;
   font-weight: 150;
 }
@@ -121,17 +121,25 @@
 
 @media only screen and (max-width: 1250px) {
   .nft-div-right-div-p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
+
+  .nft-div-right-div-h1{
+    font-size: 2.4rem;
+  }
+
   .nft-nft-img {
     height: 15rem;
     width: 15rem;
   }
-}
-
-@media only screen and (max-width: 1250px) {
   .nft-div-right-div {
     width: 85%;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .nft-div-right-div-p {
+    font-size: 1rem;
   }
 }
 
@@ -152,11 +160,11 @@
 
 @media only screen and (max-width: 980px) {
   .nft-div-right-div-h1 {
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
 
   .nft-div-right-div-p {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
 
   .nft-div-right-div {
@@ -166,7 +174,7 @@
 
 @media only screen and (max-width: 890px) {
   .nft-div {
-    height: 1000px;
+    height: 1300px;
   }
 
   .nft-div-wrap{
@@ -213,6 +221,12 @@
   }
 }
 
+@media only screen and (max-width: 620px) {
+  .nft-div-right-div-p {
+    font-size: 0.8rem;
+  }
+}
+
 @media only screen and (max-width: 590px){
   .nft-nft-img{
     height: 12rem;
@@ -232,10 +246,6 @@
 }
 
 @media only screen and (max-width: 500px){
-  .nft-div{
-    height: 800px;
-  }
-
   .nft-nft-img{
     height: 9rem;
     width: 9rem;
