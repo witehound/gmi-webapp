@@ -54,7 +54,7 @@ function App() {
               />
             }
           />
-          <Route
+       { account && <Route
             path="/web3"
             element={
               <Access
@@ -66,8 +66,8 @@ function App() {
                 accoutAddress={accoutAddress}
                 ethereum={ethereum}
               />
-            }
-          />
+            } 
+          /> }
         </Routes>
       </Router>
     </div>
