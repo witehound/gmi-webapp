@@ -191,6 +191,7 @@ nav {
   .header-right-connect {
     width: 250px;
     font-size: 16.5px;
+    height: 45px;
   }
 }
 
@@ -210,8 +211,7 @@ nav {
 
    .header-right-connect {
     width: 130px;
-    font-size: 15px;
-    height: 45px;
+    font-size: 13px;
   }
 }
 
@@ -222,13 +222,14 @@ nav {
 
   .gmi-header-logo {
     height: 40px;
-    width: 130px;
+    width: 120px;
   }
 
  
   .header-right-connect{
     height: 45px;
-    width: 110px;
+    width: 115px;
+    font-size: 12px;
   }
 
   .header-right {
