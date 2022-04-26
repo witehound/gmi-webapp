@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./Pages/Home/Home";
-import Access from './Pages/Access/Access'
+import Access from "./Pages/Access/Access";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
 
   const checkConnection = async () => {
     const accounts = await ethereum.request({ method: "eth_accounts" });
-    setAccount(accounts[0]);
+    if (account) connectWallet()
   };
 
   const sliceAddress = () => {
@@ -54,7 +54,20 @@ function App() {
               />
             }
           />
-          <Route path="/web3" element={<Access/>}/>
+          <Route
+            path="/web3"
+            element={
+              <Access
+                isMetaMask={isMetaMask}
+                connectWallet={connectWallet}
+                connectingWallet={connectingWallet}
+                setConnectingWallet={setConnectingWallet}
+                account={account}
+                accoutAddress={accoutAddress}
+                ethereum={ethereum}
+              />
+            }
+          />
         </Routes>
       </Router>
     </div>

@@ -1,6 +1,7 @@
 import "./Header.css";
 import nameImg from "../../../assets/gmi-_Wordmark_Black.svg";
 import logo from "../../../assets/gmi-_Green_Symbol.svg";
+import { Link } from "react-router-dom";
 
 function Header({
   isMetaMask,
@@ -38,13 +39,15 @@ function Header({
                   className="header-left-title"
                 />
               </div>
-              {account && <div className="header-right-connect-wrap">
-                <div
-                  className="header-right-connect"
-                >
-                  <div>Welcome</div>
+              {account && (
+                <div className="header-right-connect-wrap">
+                  <Link to="/web3">
+                    <div className="header-right-connect">
+                      <div>Welcome</div>
+                    </div>
+                  </Link>
                 </div>
-              </div>}
+              )}
               <div className="header-right-connect-wrap">
                 <div
                   className="header-right-connect"
