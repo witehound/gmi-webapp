@@ -37,7 +37,6 @@ function CryptoStats() {
           <div className="stats-div-right-img">
             <img
               src={web3ready}
-              alt="candle sticks chart"
               className="candle-stick-svg"
             />
           </div>

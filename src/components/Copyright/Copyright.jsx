@@ -15,7 +15,6 @@ function Copyright() {
         <div className="copy-right-div-img-web3">
           <img
           src={web3ready}
-          alt="candle sticks chart"
           className="copy-right-div-img"
         />
         </div>
@@ -28,13 +27,13 @@ function Copyright() {
           href="https://mobile.twitter.com/studio_gmi"
           className="copy-right-div-top-socials-twitter"
         >
-        <img src={twitter} alt="" className="the-twitter-logo"  />
+        <img src={twitter} className="the-twitter-logo"  />
         </a>
         <a
           href="https://www.linkedin.com/company/studiogmi"
           className="copy-right-div-top-socials-linkdln"
         >
-        <img src={linkedin} alt="" className="the-linkedin-logo"  />
+        <img src={linkedin} className="the-linkedin-logo"  />
         </a>
       </div>
       <div className="copy-right-div-bottom">

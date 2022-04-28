@@ -46,7 +46,6 @@ function Home({
               animate={{ y: 0, opacity: 1 }}
               transition={{ type: "spring", duration: 1.5, bounce: 0.2 }}
               src={logo}
-              alt="welcome to web3"
             />
           </div>
         </motion.div>

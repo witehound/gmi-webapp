@@ -32,10 +32,9 @@ function Header({
           <div className="header-wrap">
             <div className="header-right">
               <div className="header-left">
-                <img src={logo} alt="gmi-logo" className="gmi-header-logo" />
+                <img src={logo} className="gmi-header-logo" />
                 <img
                   src={nameImg}
-                  alt="gmi-logo"
                   className="header-left-title"
                 />
               </div>

@@ -10,7 +10,6 @@ function Hero() {
         <div className="hero-div-left">
           <img
             src={innovative}
-            alt="this is innovation"
             className="innovative-hero"
           />
         </div>
