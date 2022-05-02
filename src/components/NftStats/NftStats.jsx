@@ -1,5 +1,5 @@
 import "./NftStats.css";
-import nftstore from "../../../assets/Block 3.svg";
+import BlockThree from "../../../assets/Block 3.svg";
 import Button from "../Button/Button";
 
 function Hero() {
@@ -8,7 +8,7 @@ function Hero() {
       <div className="nft-div-wrap">
         <div className="nft-div-left">
           <div className="nft-div-left-in-top">
-           <img src={nftstore} className="nft-store-img"/>
+           <img src={BlockThree} className="nft-store-img"/>
           </div>
         </div>
         <div className="nft-div-right">

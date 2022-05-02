@@ -3,9 +3,6 @@ import "./Usapart.css";
 import "./Pmind.css";
 import usApartArray from "../../arrays/usApartArrayLeft";
 import usApartArrayRight from "../../arrays/usApartArrayRight";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { useEffect } from "react";
 import Button from "../Button/Button";
 
 function Usapart() {

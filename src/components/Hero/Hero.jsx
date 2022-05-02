@@ -1,6 +1,5 @@
 import "./Hero.css";
-import innovative from "../../../assets/Block 1.svg";
-import web3ready from "../../../assets/gmi_Black_Portrait copy.svg";
+import BlockOne from "../../../assets/Block 1.svg";
 import Button from "../Button/Button";
 
 function Hero() {
@@ -9,7 +8,7 @@ function Hero() {
       <div className="hero-div-wrap">
         <div className="hero-div-left">
           <img
-            src={innovative}
+            src={BlockOne}
             className="innovative-hero"
           />
         </div>
