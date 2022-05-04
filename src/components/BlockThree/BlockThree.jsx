@@ -1,7 +1,7 @@
 import "./BlockThree.css";
-import blockThreeA from "../../../assets/blockThreeAcopy.png";
 import blockThreeB from "../../../assets/blockThreeB.png";
 import Button from "../Button/Button";
+import blockThreeA from "../../../assets/A.png"
 
 function BlockThree() {
   return (
