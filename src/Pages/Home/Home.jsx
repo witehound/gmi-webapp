@@ -4,6 +4,7 @@ import logo from "../../../assets/gmi_Original_Wide copy.svg";
 import { motion } from "framer-motion";
 import BlockOne from "../../components/BlockOne/BlockOne";
 import BlockTwo from "../../components/BlockTwo/BlockTwo";
+import BlockThree from "../../components/BlockThree/BlockThree"
 
 function Home({
   isMetaMask,
@@ -29,7 +30,7 @@ function Home({
         <div className={works ? "Home-hidden" : "Home"}>
           <BlockOne />
           <BlockTwo />
-          <BlockOne />
+          <BlockThree />
         </div>
       )}
       {connectingWallet && (

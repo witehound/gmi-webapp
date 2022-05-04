@@ -15,7 +15,7 @@ function BlockOne() {
             <h1 className="blockone-text-h1">Getting Businesses web3 Ready.</h1>
             <div className="blockone-text-p-wrap">
               <p className="blockone-text-p">
-                tudio GMI offers a full 360° suite to its clients. From
+                Studio GMI offers a full 360° suite to its clients. From
                 consultative training, design, build and integration within web3
                 and blockchain technologies to marketing, partnerships and after
                 sales service.Studio GMI offers a full 360° suite to its
