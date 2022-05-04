@@ -18,7 +18,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .button-div-green{
@@ -43,14 +43,15 @@
 
 .button-div-white{
     background-color: #27d87f;
-    height: 60px;
-    width: 350px;
-    color: #1b2130;
+    height: 50px;
+    width: 250px;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 0.2rem;
+    border-radius: 1rem;
     cursor: pointer;
+
 }
 
 @media only screen and (max-width: 786px){
