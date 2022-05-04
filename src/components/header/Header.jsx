@@ -1,6 +1,4 @@
 import "./Header.css";
-import nameImg from "../../../assets/gmi-_Wordmark_Black.svg";
-import logo from "../../../assets/gmi-_Green_Symbol.svg";
 import { Link } from "react-router-dom";
 
 function Header({
@@ -32,9 +30,9 @@ function Header({
           <div className="header-wrap">
             <div className="header-right">
               <div className="header-left">
-                <img src={logo} className="gmi-header-logo" />
+                <img src="https://i.ibb.co/jGWbHV3/O9q55-U-Fz-Hya-Ofip-O3enz-KT40-Qs5-LQI27yya-HXU5-ETANIk-TAvv-P74-CZf9-INRAATV8qw-w1200-h630-p.png" className="gmi-header-logo" />
                 <img
-                  src={nameImg}
+                  src="https://i.ibb.co/4S2F4WM/15dc352-YUx-D2pka-Yo-XRVx-XVq-UFfyuky-Ob257m-Jsuiud-NAVw1-E5s2t-VHim-Ov-OAwotk-I-w1200-h630-p.png"
                   className="header-left-title"
                 />
               </div>

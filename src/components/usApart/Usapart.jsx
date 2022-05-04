@@ -30,7 +30,7 @@ function Usapart() {
                   <UsapartCard key={h2} img={img} h2={h2} p={p} />
                 ))}
               </div>
-              <div className="project-card-div-wrap-hold">
+              {/* <div className="project-card-div-wrap-hold">
                 <div className="project-card-div-wrap-hold-inner">
                   <div className="project-card-div-top-div">
                     <h1 className="project-card-div-top-h1">
@@ -43,7 +43,7 @@ function Usapart() {
                     </button>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

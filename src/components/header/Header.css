@@ -43,6 +43,7 @@
   height: 50px;
   width: 150px;
   cursor: pointer;
+  object-fit: contain;
 }
 
 .header-left-title {
@@ -52,6 +53,7 @@
   height: 50px;
   width: 150px;
   cursor: pointer;
+  object-fit: cover;
 }
 
 /* nav */
