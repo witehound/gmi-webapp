@@ -37,6 +37,8 @@ function Home({
           <Usapart />
           <Copyright /> */}
           <BlockOne />
+          <BlockOne />
+          <BlockOne />
         </div>
       )}
       {connectingWallet && (

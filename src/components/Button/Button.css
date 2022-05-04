@@ -54,6 +54,15 @@
 
 }
 
+@media only screen and (max-width: 980px){
+   .button-div-white{
+    height: 48px;
+    width: 240px;
+    font-size: 15px;
+   }
+    
+}
+
 @media only screen and (max-width: 786px){
     .button-div-white,.button-div-green{
         width: 150px;
@@ -61,18 +70,9 @@
     }
 }
 
-@media only screen and (max-width: 890px){
-    .button-div-white,.button-div-green{
-        width: 300px;
-       font-size: 20px;
-    }
-}
-
-
-@media only screen and (max-width: 970px){
-    .button-div-white,.button-div-green{
-        width: 320px;
-       font-size: 22px;
+@media only screen and (max-width: 920px){
+    .button-container-white{
+        justify-content: center;
     }
 }
 
