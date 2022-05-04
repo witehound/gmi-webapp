@@ -1,0 +1,363 @@
+.blocktwo {
+    width: 100%;
+    height: 800px;
+    background-color: transparent;
+    display: flex;
+     background-color: #1b2130;
+  }
+  
+  .blocktwo-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .blocktwo-imgone {
+    display: flex;
+    align-items: center;
+    flex: 2.5;
+  }
+  
+  .blocktwoa {
+    height: 80%;
+    width: 160px;
+  }
+  
+  .blocktwo-text {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .blocktwo-text-container {
+    width: 100%;
+    height: 63%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .blocktwo-text-h1 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+    color: #27d87f;
+  }
+  
+  .blocktwo-text-p-wrap {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+  }
+  
+  .blocktwo-text-button {
+    flex: 1;
+  }
+  
+  .blocktwo-imgtwo {
+    flex: 0.7;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+  
+  .blocktwob {
+    height: 77%;
+    width: 700px;
+  }
+  
+  /* responsive */
+  
+  @media only screen and (max-width: 1700px) {
+    .blocktwoa {
+      width: 150px;
+    }
+  }
+  
+  @media only screen and (max-width: 1600px) {
+    .blocktwoa {
+      height: 70%;
+      width: 140px;
+    }
+  
+    .blocktwob {
+     width: 690px;
+    }
+  }
+  
+  @media only screen and (max-width: 1550px) {
+    .blocktwob {
+      width: 680px;
+    }
+  }
+
+  @media only screen and (max-width: 1470px) {
+    .blocktwoa {
+      height: 70%;
+      width: 130px;
+    }
+  
+    .blocktwob {
+      width: 670px;
+    }
+  
+    .blocktwo-text-h1 {
+      font-size: 43px;
+    }
+  
+    P {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 1390px) {
+  
+    .blocktwob {
+      height: 74%;
+      width: 650px;
+    }
+  
+    .blocktwo-text-h1 {
+      font-size: 41px;
+    }
+  
+    P {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 1300px) { 
+    .blocktwob {
+      height: 73%;
+      width: 640px;
+    }
+  
+    .blocktwo-text-h1 {
+      font-size: 40px;
+    }
+  
+    P {
+      font-size: 13.5px;
+    }
+  
+    .blocktwo-text-container {
+      height: 59%;
+    }
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    .blocktwoa {
+      width: 120px;
+    }
+  
+    .blocktwob {
+      width: 600px;
+      height: 71%;
+    }
+  
+    .blocktwo-text-h1 {
+      font-size: 39px;
+    }
+  
+    P {
+      font-size: 13px;
+    }
+  
+    .blocktwo-text-container {
+      height: 58%;
+    }
+  }
+  
+  @media only screen and (max-width: 1235px) {
+    .blocktwo-text-h1 {
+      font-size: 35px;
+    }
+  
+    P {
+      font-size: 13px;
+    }
+  
+    .blocktwo-text-container {
+      height: 57%;
+    }
+  }
+  
+  @media only screen and (max-width: 1150px) {
+    .blocktwob {
+      width: 580px;
+      height: 68%;
+    }
+  
+    .blocktwo-text-container {
+      height: 56%;
+    }
+  }
+  
+  @media only screen and (max-width: 1100px) {
+    .blocktwo {
+      height: 750px;
+    }
+  
+    .blocktwob {
+      width: 530px;
+    }
+  
+    .blocktwo-text-h1 {
+      font-size: 33px;
+    }
+  
+    P {
+      font-size: 12px;
+    }
+  
+    .blocktwo-text-container {
+      height: 55%;
+    }
+  }
+  
+  @media only screen and (max-width: 1050px) {
+    .blocktwoa {
+      width: 110px;
+    }
+  
+    .blocktwob {
+        width: 500px;
+        height: 66%;
+      }
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .blocktwoa {
+      width: 105px;
+    }
+  
+    .blocktwob {
+      width: 490px;
+      height: 64%;
+    }
+  }
+  
+  @media only screen and (max-width: 920px) {
+    .blocktwo {
+      height: 1000px;
+    }
+    .blocktwo-imgtwo {
+      display: none;
+    }
+     .blocktwo-container {
+      flex-direction: column;
+    } 
+  
+    .blocktwo-text-container {
+      height: 98%;
+      width: 80%;
+    }
+
+    .blocktwo-imgone {
+      height: 550px;
+    }
+  
+    .blocktwob {
+      width: 650px;
+      height: 96%;
+    }
+  
+    .blocktwo-text-h1 {
+      font-size: 35px;
+    }
+  
+    P {
+      font-size: 15px;
+    }
+  
+    .blocktwo-imgone {
+      flex: 1.5;
+    }
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .blocktwob {
+      width: 580px;
+    }
+  
+    .blocktwo-text-h1 {
+      font-size: 32px;
+    }
+  
+    P {
+      font-size: 13px;
+    }
+  }
+  
+  @media only screen and (max-width: 580px) {
+    .blocktwob {
+      width: 470px;
+    }
+  
+    .blocktwo-imgtwo {
+      height: 580px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .blocktwob {
+      width: 420px;
+    }
+  
+    .blocktwo-imgtwo {
+      height: 570px;
+    }
+  
+    .blocktwo-text-container {
+      width: 83%;
+    }
+  
+    .blocktwo-text-h1 {
+      font-size: 30px;
+    }
+  
+    P {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 450px) {
+    .blocktwob {
+      width: 400px;
+    }
+  
+    .blocktwo-imgtwo {
+      height: 550px;
+    }
+  
+    .blocktwo-text-container {
+      width: 85%;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+    .blocktwob {
+      width: 390px;
+      height: 90%;
+    }
+  
+    .blocktwo-imgtwo {
+      height: 540px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .blocktwob {
+      width: 360px;
+    }
+  
+    .blocktwo-imgtwo {
+      height: 520px;
+    }
+  }
+  

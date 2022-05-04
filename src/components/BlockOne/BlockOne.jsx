@@ -1,4 +1,3 @@
-import React from "react";
 import "./BlockOne.css";
 import blockOneA from "../../../assets/blockOneA.jpg";
 import blockOneB from "../../../assets/blockOneB.jpg";
@@ -6,7 +5,7 @@ import Button from "../Button/Button";
 
 function BlockOne() {
   return (
-    <div className="blockone">
+    <div className="blockone blockone">
       <div className="blockone-container">
         <div className="blockone-imgone">
           <img src={blockOneA} alt="" className="blockonea" />
