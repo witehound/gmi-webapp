@@ -22,7 +22,7 @@ function BlockOne() {
                 sales service.Studio GMI offers a full 360° suite to its
                 clients. From consultative training, design, build and
                 integration within web3 and block- chain technologies to
-                marketing, partnerships and after sales service.
+                marketing, partnerships and after sales service"
               </p>
               <p className="blockone-text-p">
                 Let us guide you through the maze that is blockchain
@@ -31,7 +31,7 @@ function BlockOne() {
               </p>
               <p className="blockone-text-p">
                 Our goal is to help businesses transition into WEB3 and Next
-                generation techno- logies
+                generation technologies
               </p>
             </div>
             <div className="blockone-text-button">
