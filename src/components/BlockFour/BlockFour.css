@@ -1,0 +1,54 @@
+.blockfour{
+    background-image: url('../../../assets/Studio_Gmi_-02.png');
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockfour-container{
+    width: 80%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockfour-usapart{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockfour-usapart-top{
+    flex: 1;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockfour-usapart-bottom{
+    flex: 8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blockfour-usapart-bottom-top{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.blockfour-usapart-bottom-bottom{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blockfour-footer{
+    flex: 1;
+}
