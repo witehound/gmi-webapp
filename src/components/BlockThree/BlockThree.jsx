@@ -1,5 +1,5 @@
 import "./BlockThree.css";
-import blockThreeA from "../../../assets/blockThreeA.png";
+import blockThreeA from "../../../assets/blockThreeAcopy.png";
 import blockThreeB from "../../../assets/blockThreeB.png";
 import Button from "../Button/Button";
 
