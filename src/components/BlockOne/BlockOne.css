@@ -1,0 +1,38 @@
+.blockone{
+ width: 100%;
+ height: 900px;
+ background-color: transparent;
+ overflow-y: hidden;
+}
+
+.blockone-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.blockone-imgone{
+    display: flex;
+    align-items: flex-end;
+}
+
+.blockonea{
+    height: 80%;
+    width: 300px;
+}
+
+.blockone-text{
+    flex: 1;
+}
+
+.blockone-imgtwo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.blockoneb{
+    height: 90%;
+    width: 500px;
+}

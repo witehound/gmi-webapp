@@ -19,6 +19,12 @@
   background-size: cover;
 }
 
+.header-background{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
 .space-hero-hero{
   flex: 0.3;
 }

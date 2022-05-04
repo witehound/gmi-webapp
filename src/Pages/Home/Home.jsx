@@ -7,6 +7,7 @@ import logo from "../../../assets/gmi_Original_Wide copy.svg";
 import Usapart from "../../components/usApart/Usapart";
 import Copyright from "../../components/Copyright/Copyright";
 import { motion } from "framer-motion";
+import BlockOne from "../../components/BlockOne/BlockOne";
 
 function Home({
   isMetaMask,
@@ -30,11 +31,12 @@ function Home({
       />
       {!connectingWallet && (
         <div className={works ? "Home-hidden" : "Home"}>
-          <Hero />
+          {/* <Hero />
           <CryptoStats />
           <NftStats />
           <Usapart />
-          <Copyright />
+          <Copyright /> */}
+          <BlockOne />
         </div>
       )}
       {connectingWallet && (

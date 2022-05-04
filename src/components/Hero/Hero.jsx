@@ -1,4 +1,5 @@
 import "./Hero.css";
+// import headerBackground from "../../../assets/Studio_Gmi_-05.jpg"
 import BlockOne from "../../../assets/Block 1.svg";
 import Button from "../Button/Button";
 
@@ -6,6 +7,7 @@ function Hero() {
   return (
     <div className="hero-div">
       <div className="hero-div-wrap">
+      {/* <img src={headerBackground} alt=""  className="header-background"/> */}
         <div className="hero-div-left">
           <img
             src={BlockOne}
