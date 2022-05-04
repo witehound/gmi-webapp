@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import BlockOne from "../../components/BlockOne/BlockOne";
 import BlockTwo from "../../components/BlockTwo/BlockTwo";
 import BlockThree from "../../components/BlockThree/BlockThree"
+import BlockFour from "../../components/BlockFour/BlockFour";
 
 function Home({
   isMetaMask,
@@ -31,6 +32,7 @@ function Home({
           <BlockOne />
           <BlockTwo />
           <BlockThree />
+          <BlockFour />
         </div>
       )}
       {connectingWallet && (
