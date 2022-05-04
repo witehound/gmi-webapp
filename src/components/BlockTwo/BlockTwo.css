@@ -328,11 +328,12 @@
   
   @media only screen and (max-width: 450px) {
     .blocktwob {
-      width: 400px;
+      width: 420px;
     }
   
     .blocktwo-imgtwo {
-      height: 550px;
+      height: 98%;
+      width: 420px;
     }
   
     .blocktwo-text-container {
@@ -342,22 +343,15 @@
   
   @media only screen and (max-width: 420px) {
     .blocktwob {
-      width: 390px;
-      height: 90%;
-    }
-  
-    .blocktwo-imgtwo {
-      height: 540px;
-    }
+        width: 410px;
+        height: 90%;
+      }
   }
-  
-  @media only screen and (max-width: 400px) {
+
+  @media only screen and (max-width: 380px) {
     .blocktwob {
-      width: 360px;
+      width: 380px;
     }
   
-    .blocktwo-imgtwo {
-      height: 520px;
-    }
   }
   
