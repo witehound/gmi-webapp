@@ -1,4 +1,5 @@
 import "./AccessHeader.css";
+import AccessHeaderVideo from "../../../assets/accessVideo.png"
 
 function AccessHeader() {
   return (
@@ -33,7 +34,9 @@ function AccessHeader() {
             </div>
           </div>
           <div className="access-header-top-right">
-            <div className="access-header-top-right-video">video</div>
+            <div className="access-header-top-right-video">
+             <img src={AccessHeaderVideo} alt="" className="access-header-top-right-video-img" />
+            </div>
           </div>
         </div>
         <div className="access-header-bottom">bottom</div>
