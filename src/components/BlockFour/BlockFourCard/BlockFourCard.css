@@ -48,10 +48,40 @@
   text-align: center;
 }
 
+/* responsive */
+
+@media only screen and (max-width: 1470px) {
+  .blockfourcard-bottom {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .blockfourcard-bottom {
+    font-size: 13.5px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .blockfourcard-bottom {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .blockfourcard-bottom {
+    font-size: 12px;
+  }
+}
+
 @media only screen and (max-width: 920px) {
   .blockfourcard{
     height: 90%;
     width: 60%;
+  }
+
+  .blockfourcard-bottom{
+    font-size: 19px;
   }
 }
 
@@ -59,16 +89,20 @@
     .blockfourcard{
         width: 65%;
     }
+
+    .blockfourcard-bottom{
+      font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 580px) {
     .blockfourcard{
-        width: 75%;
+        width: 70%;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .blockfourcard{
-        width: 90%;
+        width: 85%;
     }
 }

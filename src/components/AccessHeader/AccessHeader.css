@@ -1,0 +1,74 @@
+.access-header{
+    height: 800px;
+    width: 100%;
+    background-image: url('../../../assets/AccessHeaderBG.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.access-header-container{
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.access-header-top{
+    flex: 9;
+    padding: 100px 20px;
+    display: flex;
+}
+
+.access-header-top-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.access-header-top-left-text{
+    height: 70%;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.access-header-top-left-text-h1-wrap{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.access-header-top-left-text-p-wrap{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.access-header-top-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.access-header-top-right-video{
+    height: 80%;
+    width: 80%;
+    background-color: white;
+}
+
+.access-header-bottom{
+    flex: 1;
+    background-color: palevioletred;
+    width: 100%;
+}
