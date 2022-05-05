@@ -1,6 +1,6 @@
 .newscard{
     height: 820px;
-    width: 780px;
+    width: 730px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,10 +31,33 @@
 
 .newscard-bottom-left{
     flex: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.newscard-bottom-left-wrap{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.newscard-bottom-left-h1-wrap{
+    flex: 1;
+   display: flex;
+   align-items: center;
+
 }
 
 .newscard-bottom-left-h1{
     color: #27d87f;
+    gap: 0px;
+}
+
+.newscard-bottom-left-p-wrap{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .newscard-bottom-right{
