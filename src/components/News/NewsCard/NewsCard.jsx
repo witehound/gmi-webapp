@@ -31,7 +31,7 @@ function NewsCard() {
               </div>
             </div>
           </div>
-          <div className="newscard-bottom-right">read more</div>
+          <div className="newscard-bottom-right newscard-bottom-left-p">read more</div>
         </div>
       </div>
     </div>
