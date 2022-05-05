@@ -36,6 +36,7 @@ function App() {
     if (account) sliceAddress();
   }, [account]);
 
+
   return (
     <div className="App">
       <Router>
@@ -54,7 +55,8 @@ function App() {
               />
             }
           />
-       { account && <Route
+
+        <Route
             path="/web3"
             element={
               <Access
@@ -67,7 +69,7 @@ function App() {
                 ethereum={ethereum}
               />
             } 
-          /> }
+          /> 
         </Routes>
       </Router>
     </div>

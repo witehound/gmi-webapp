@@ -1,5 +1,7 @@
 import "./Access.css";
 import Header from "../../components/header/Header";
+import AccessHeader from "../../components/AccessHeader/AccessHeader";
+import News from "../../components/News/News";
 
 function Access({
   isMetaMask,
@@ -21,7 +23,10 @@ function Access({
         accoutAddress={accoutAddress}
         ethereum={ethereum}
       />
-      <div className="access-web3">access to web3</div>
+      <div className="access-web3">
+        <AccessHeader />
+        <News />
+      </div>
     </>
   );
 }

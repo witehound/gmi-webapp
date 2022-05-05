@@ -1,5 +1,7 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
+import Button from "../../components/Button/Button"
+import headerLogo from "../../../assets/headerLogo.png"
 
 function Header({
   isMetaMask,
@@ -30,30 +32,24 @@ function Header({
           <div className="header-wrap">
             <div className="header-right">
               <div className="header-left">
-                <img src="https://i.ibb.co/jGWbHV3/O9q55-U-Fz-Hya-Ofip-O3enz-KT40-Qs5-LQI27yya-HXU5-ETANIk-TAvv-P74-CZf9-INRAATV8qw-w1200-h630-p.png" className="gmi-header-logo" />
-                <img
-                  src="https://i.ibb.co/4S2F4WM/15dc352-YUx-D2pka-Yo-XRVx-XVq-UFfyuky-Ob257m-Jsuiud-NAVw1-E5s2t-VHim-Ov-OAwotk-I-w1200-h630-p.png"
-                  className="header-left-title"
-                />
+               <img src={headerLogo} alt="" className="gmi-header-logo"/>
               </div>
               {account && (
                 <div className="header-right-connect-wrap">
                   <Link to="/web3">
-                    <div className="header-right-connect">
-                      <div>Welcome</div>
-                    </div>
+                    <Button text={'welcome'} color={'white'} header={'header-button'}/>
                   </Link>
                 </div>
               )}
-              <div className="header-right-connect-wrap">
+              <div className="header-right-connect-wrap header-right-connect-wrap-other">
                 <div
-                  className="header-right-connect"
+                 
                   onClick={loadConnectWallet}
                 >
                   {!account ? (
-                    <div>{isMetaMask ? "Connect" : "Install MetaMask"}</div>
+                   <Button text={isMetaMask ? "Connect" : "Install MetaMask"} color={'white'} header={'header-button'}/>
                   ) : (
-                    <div>{accoutAddress}</div>
+                    <Button text={accoutAddress} color={'white'} header={'header-button'} accountPresent={'header-account'}/>
                   )}
                 </div>
               </div>

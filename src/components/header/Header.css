@@ -40,20 +40,10 @@
 }
 
 .gmi-header-logo {
-  height: 50px;
-  width: 150px;
+  height: 100%;
+  width: 250px;
   cursor: pointer;
   object-fit: contain;
-}
-
-.header-left-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 50px;
-  width: 150px;
-  cursor: pointer;
-  object-fit: cover;
 }
 
 /* nav */
@@ -204,13 +194,13 @@ nav {
   }
 }
 
-@media only screen and (max-width: 478px) {
-  .button-div-white,
-  .button-div-green {
+@media only screen and (max-width: 560px) {
+  .gmi-header-logo {
     width: 170px;
-    font-size: 15px;
   }
+}
 
+@media only screen and (max-width: 478px) {
    .header-right-connect {
     width: 130px;
     font-size: 13px;
@@ -223,15 +213,7 @@ nav {
   }
 
   .gmi-header-logo {
-    height: 40px;
-    width: 120px;
-  }
-
- 
-  .header-right-connect{
-    height: 45px;
-    width: 115px;
-    font-size: 12px;
+    width: 150px;
   }
 
   .header-right {
@@ -241,4 +223,14 @@ nav {
   .header-menu-wrap {
     flex: 1;
   }
+
+  .gmi-header-logo {
+    width: 150px;
+  }
+
+  .header-right-connect-wrap-other{
+    display: none;
+  }
 }
+
+
