@@ -1,49 +1,74 @@
-.blockfourcard{
-    width : 300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.blockfourcard {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.blockfourcard-container{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+.blockfourcard-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.blockfourcard-top{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.blockfourcard-top {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.blockfourcard-top-number{
-    height: 50px;
-    width: 60px;
-    font-size: 30px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 1.2rem;
-    box-shadow: -9px 14px 13px -8px rgba(0,0,0,0.75);
-    -webkit-box-shadow: -9px 14px 13px -8px rgba(0,0,0,0.75);
-    -moz-box-shadow: -9px 14px 13px -8px rgba(0,0,0,0.75);
+.blockfourcard-top-number {
+  height: 50px;
+  width: 60px;
+  font-size: 30px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1.2rem;
+  box-shadow: -9px 14px 13px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -9px 14px 13px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -9px 14px 13px -8px rgba(0, 0, 0, 0.75);
 }
 
-.blockfourcard-middle{
-    flex: 1;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 20px;
-    font-weight: 900;
+.blockfourcard-middle {
+  flex: 1;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 900;
 }
 
-.blockfourcard-bottom{
-    flex: 3;
-    text-align: center;
+.blockfourcard-bottom {
+  flex: 3;
+  text-align: center;
+}
+
+@media only screen and (max-width: 920px) {
+  .blockfourcard{
+    height: 90%;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+    .blockfourcard{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .blockfourcard{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .blockfourcard{
+        width: 90%;
+    }
 }

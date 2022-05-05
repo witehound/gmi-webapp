@@ -1,5 +1,8 @@
 import "./BlockFour.css";
 import BlockFourCard from "./BlockFourCard/BlockFourCard";
+import BlockFourImage from "../../../assets/BlockFourImage.png"
+import linkedin from "../../../assets/linkedin.png"
+import twitter from "../../../assets/twitter.png"
 
 function BlockFour() {
   return (
@@ -34,13 +37,43 @@ function BlockFour() {
               />
             </div>
             <div className="blockfour-usapart-bottom-bottom">
-              <BlockFourCard number={4} title={'Airdrop Tech'} text={'A new way to build customer loyalty, by simply using a service or performing a task, the dapp (web3 application) provides additional value by rewarding wallet addresses with a cryptocurrency, token, or NFT.A new way to build customer loyalty, by simply using a service or performing a task, the dapp (web3 application) provides additional value by rewarding wallet addresses with a cryptocurrency, token, or NFT.'}/>
-              <BlockFourCard number={5} title={'Secondary market royalties'} text={'Limited drops or one off pieces create value in your brand, however it does attract customers whose sole purpose is to buy into the product and to sell it for more the next day. By building a secondary market royalty into your NFT contract you will be able to sell limited runs and still gain the information of the end user (your true customer) as well as earning a small percentage of the secondary market price of your item'}/>
+              <BlockFourCard
+                number={4}
+                title={"Airdrop Tech"}
+                text={
+                  "A new way to build customer loyalty, by simply using a service or performing a task, the dapp (web3 application) provides additional value by rewarding wallet addresses with a cryptocurrency, token, or NFT.A new way to build customer loyalty, by simply using a service or performing a task, the dapp (web3 application) provides additional value by rewarding wallet addresses with a cryptocurrency, token, or NFT."
+                }
+              />
+              <BlockFourCard
+                number={5}
+                title={"Secondary market royalties"}
+                text={
+                  "Limited drops or one off pieces create value in your brand, however it does attract customers whose sole purpose is to buy into the product and to sell it for more the next day. By building a secondary market royalty into your NFT contract you will be able to sell limited runs and still gain the information of the end user (your true customer) as well as earning a small percentage of the secondary market price of your item"
+                }
+              />
             </div>
           </div>
         </div>
-        <hr />
-        <div className="blockfour-footer">footer</div>
+
+        <div className="blockfour-footer">
+          <hr className="blockfour-horizontal" />
+          <div className="blockfour-footer-container">
+              <div className="blockfour-footer-image">
+                 <img src={BlockFourImage} alt="" className="blockfour-footer-image-image" />
+              </div>
+              <div className="blockfour-footer-copyright">
+                © Copyright 2022 Studio GMI. All Rights Reserved
+              </div>
+              <div className="blockfour-footer-links">
+                  <div className="blockfour-footer-links-linkdln">
+                     <a href=""><img src={linkedin} alt="" className="blockfour-footer-links-linkdln-image"/></a> 
+                  </div>
+                  <div className="blockfour-footer-links-twitter">
+                     <a href=""><img src={twitter} alt="" className="blockfour-footer-links-twitter-image"/></a> 
+                  </div>
+              </div>
+          </div>
+        </div>
       </div>
     </div>
   );
