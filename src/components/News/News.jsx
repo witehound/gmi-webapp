@@ -11,8 +11,8 @@ function News() {
             <NewsCard />
           </div>
         </div>
-        <div className="news-bottom">
-          <div className="news-bottom-container">
+        <div className="news-top">
+          <div className="news-top-container">
             <NewsCard />
             <NewsCard />
           </div>
