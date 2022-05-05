@@ -1,0 +1,45 @@
+.newscard{
+    height: 820px;
+    width: 780px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newscard-container{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.newscard-top{
+    flex: 2.3;
+    background-color: white;
+}
+
+.newscard-top-img{
+   height: 100%;
+   width: 100%;
+}
+
+.newscard-bottom{
+    flex: 1;
+    display: flex;
+    padding: 10px;
+}
+
+.newscard-bottom-left{
+    flex: 3;
+}
+
+.newscard-bottom-left-h1{
+    color: #27d87f;
+}
+
+.newscard-bottom-right{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
