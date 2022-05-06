@@ -1,6 +1,4 @@
 import "./BlockTwo.css";
-import blockTwoA from "../../../assets/blockTwoA.png";
-import blockTwoB from "../../../assets/blockTwoB.png";
 import Button from "../Button/Button";
 
 function BlockTwo() {
@@ -8,7 +6,7 @@ function BlockTwo() {
     <div className="blocktwo blocktwo">
       <div className="blocktwo-container">
         <div className="blocktwo-imgone">
-          <img src={blockTwoB} alt="" className="blocktwob" />
+          <img src='https://i.ibb.co/Bqwwxcg/block-Two-B.png' alt="" className="blocktwob" />
         </div>
         <div className="blocktwo-text">
           <div className="blocktwo-text-container">
@@ -38,7 +36,7 @@ function BlockTwo() {
           </div>
         </div>
         <div className="blocktwo-imgtwo">
-          <img src={blockTwoA} alt="" className="blocktwoa" />
+          <img src='https://i.ibb.co/7t12HkV/block-Two-A.png' alt="" className="blocktwoa" />
         </div>
       </div>
     </div>

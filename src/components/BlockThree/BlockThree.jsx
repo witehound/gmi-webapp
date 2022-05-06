@@ -1,14 +1,12 @@
 import "./BlockThree.css";
 import Button from "../Button/Button";
-import blockThreeA from "../../../assets/A.png";
-import blockThreeB from "../../../assets/B.png";
 
 function BlockThree() {
   return (
     <div className="blockthree blockthree">
       <div className="blockthree-container">
         <div className="blockthree-imgone">
-          <img src={blockThreeA} alt="" className="blockthreeb" />
+          <img src='https://i.ibb.co/Ks8sWdR/A.png' alt="" className="blockthreeb" />
         </div>
         <div className="blockthree-text">
           <div className="blockthree-text-container">
@@ -39,7 +37,7 @@ function BlockThree() {
           </div>
         </div>
         <div className="blockthree-imgtwo">
-          <img src={blockThreeB} alt="" className="blockthreea" />
+          <img src='https://i.ibb.co/nL2dm8C/B.png' alt="" className="blockthreea" />
         </div>
       </div>
     </div>

@@ -1,6 +1,4 @@
 import "./BlockOne.css";
-import blockOneA from "../../../assets/blockOneA.jpg";
-import blockOneB from "../../../assets/blockOneB.png";
 import Button from "../Button/Button";
 
 function BlockOne() {
@@ -8,7 +6,7 @@ function BlockOne() {
     <div className="blockone blockone">
       <div className="blockone-container">
         <div className="blockone-imgone">
-          <img src={blockOneA} alt="" className="blockonea" />
+          <img src='https://i.ibb.co/WzTCzpc/block-One-A.jpg' alt="" className="blockonea" />
         </div>
         <div className="blockone-text">
           <div className="blockone-text-container">
@@ -39,7 +37,7 @@ function BlockOne() {
           </div>
         </div>
         <div className="blockone-imgtwo">
-          <img src={blockOneB} alt="" className="blockoneb" />
+          <img src='https://i.ibb.co/b5cnTvK/block-One-B.png' alt="" className="blockoneb" />
         </div>
       </div>
     </div>
