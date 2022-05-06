@@ -10,6 +10,8 @@ function Header({
   setConnectingWallet,
   accoutAddress,
   ethereum,
+  news,
+  setNews
 }) {
   const loadConnectWallet = async () => {
     if (!ethereum) return;
@@ -34,11 +36,13 @@ function Header({
               <div className="header-left">
                <img src={headerLogo} alt="" className="gmi-header-logo"/>
               </div>
-              {account && (
+              {account && news && (
                 <div className="header-right-connect-wrap">
-                  <Link to="/web3">
+                  <Link to="/web3" onClick={()=>{setNews(!news)}}>
                     <Button text={'welcome'} color={'white'} header={'header-button'}/>
                   </Link>
+                  {console.log(account)}
+                  {console.log(news)}
                 </div>
               )}
               <div className="header-right-connect-wrap header-right-connect-wrap-other">
