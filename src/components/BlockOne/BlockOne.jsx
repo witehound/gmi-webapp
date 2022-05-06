@@ -1,6 +1,6 @@
 import "./BlockOne.css";
 import blockOneA from "../../../assets/blockOneA.jpg";
-import blockOneB from "../../../assets/blockOneB.jpg";
+import blockOneB from "../../../assets/blockOneB.png";
 import Button from "../Button/Button";
 
 function BlockOne() {

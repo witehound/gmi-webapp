@@ -70,7 +70,7 @@
 }
 
 .blockoneb {
-  height: 90%;
+  height: 84%;
   width: 600px;
 }
 
@@ -119,7 +119,7 @@
   }
 
   .blockoneb {
-    height: 87%;
+    height: 80%;
     width: 530px;
   }
 
@@ -139,7 +139,7 @@
   }
 
   .blockoneb {
-    height: 85%;
+    height: 78%;
     width: 520px;
   }
 
@@ -209,7 +209,7 @@
 
   .blockoneb {
     width: 490px;
-    height: 83%;
+    height: 75%;
   }
 
   .blockone-text-container {
@@ -251,7 +251,7 @@
 
   .blockoneb {
     width: 440px;
-    height: 80%;
+    height: 70%;
   }
 }
 
@@ -263,7 +263,7 @@
 
   .blockoneb {
     width: 400px;
-    height: 75%;
+    height: 68%;
   }
 }
 
@@ -283,11 +283,12 @@
     width: 80%;
   }
   .blockone-imgtwo {
-    height: 600px;
+    height: 580px;
   }
 
   .blockoneb {
-    width: 450px;
+    width: 430px;
+    height: 78%;
   }
 
   .blockone-text-h1 {
@@ -305,7 +306,7 @@
 
 @media only screen and (max-width: 720px) {
   .blockoneb {
-    width: 440px;
+    width: 370px;
   }
 
   .blockone-text-h1 {
@@ -319,7 +320,7 @@
 
 @media only screen and (max-width: 580px) {
   .blockoneb {
-    width: 430px;
+    width: 350px;
   }
 
   .blockone-imgtwo {
@@ -329,11 +330,7 @@
 
 @media only screen and (max-width: 500px) {
   .blockoneb {
-    width: 420px;
-  }
-
-  .blockone-imgtwo {
-    height: 580px;
+    width: 320px;
   }
 
   .blockone-text-container {
@@ -351,11 +348,11 @@
 
 @media only screen and (max-width: 450px) {
   .blockoneb {
-    width: 400px;
+    width: 300px;
   }
 
   .blockone-imgtwo {
-    height: 98%;
+    height: 100%;
   }
 
   .blockone-text-container {
@@ -364,21 +361,7 @@
 }
 
 @media only screen and (max-width: 420px) {
-  .blockoneb {
-    width: 390px;
-  }
-
-  .blockone-imgtwo {
-    height: 98%;
-  }
 }
 
 @media only screen and (max-width: 400px) {
-  .blockoneb {
-    width: 360px;
-  }
-
-  .blockone-imgtwo {
-    height: 98%;
-  }
 }
