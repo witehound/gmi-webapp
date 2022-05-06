@@ -22,7 +22,7 @@ function Header({
     } else {
       setTimeout(() => {
         setConnectingWallet(false);
-      }, 15000);
+      }, 10000);
       return;
     }
   };
@@ -41,8 +41,6 @@ function Header({
                   <Link to="/web3" onClick={()=>{setNews(!news)}}>
                     <Button text={'welcome'} color={'white'} header={'header-button'}/>
                   </Link>
-                  {console.log(account)}
-                  {console.log(news)}
                 </div>
               )}
               <div className="header-right-connect-wrap header-right-connect-wrap-other">
