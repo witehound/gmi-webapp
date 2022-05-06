@@ -19,6 +19,7 @@ function Header({
     connectWallet();
     if (account) {
       setConnectingWallet(false);
+      return
     } else {
       setTimeout(() => {
         setConnectingWallet(false);

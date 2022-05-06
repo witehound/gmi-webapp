@@ -1,274 +1,270 @@
-.newscard{
-    height: 820px;
-    width: 730px;
+.newscard {
+  height: 820px;
+  width: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newscard-container {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.newscard-top {
+  flex: 2.3;
+  background-color: white;
+}
+
+.newscard-top-img {
+  height: 100%;
+  width: 100%;
+}
+
+.newscard-bottom {
+  flex: 1;
+  display: flex;
+  padding: 10px;
+}
+
+.newscard-bottom-left {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+}
+
+.newscard-bottom-left-wrap {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.newscard-bottom-left-h1-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.newscard-bottom-left-h1 {
+  color: #27d87f;
+  gap: 0px;
+}
+
+.newscard-bottom-left-p-wrap {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.newscard-bottom-right {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  color: #27d87f;
+}
+
+.newscard-bottom-right-inner{
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.newscard-container{
-    height: 100%;
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-}
-
-.newscard-top{
-    flex: 2.3;
-    background-color: white;
-}
-
-.newscard-top-img{
-   height: 100%;
-   width: 100%;
-}
-
-.newscard-bottom{
-    flex: 1;
-    display: flex;
-    padding: 10px;
-}
-
-.newscard-bottom-left{
-    flex: 3;
-    display: flex;
-    justify-content: center;
-}
-
-.newscard-bottom-left-wrap{
-    height: 90%;
-    display: flex;
-    flex-direction: column;
-}
-
-.newscard-bottom-left-h1-wrap{
-    flex: 1;
-   display: flex;
-   align-items: center;
-
-}
-
-.newscard-bottom-left-h1{
-    color: #27d87f;
-    gap: 0px;
-}
-
-.newscard-bottom-left-p-wrap{
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.newscard-bottom-right{
-    flex: 1;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
-
 /* responsive */
 @media only screen and (max-width: 1550px) {
-    .newscard{
-        height: 750px;
-        width: 720px;
-    }
+  .newscard {
+    height: 750px;
+    width: 720px;
+  }
 }
 
 @media only screen and (max-width: 1470px) {
-    .newscard{
-        height: 718px;
-        width: 690px;
-    }
+  .newscard {
+    height: 718px;
+    width: 690px;
+  }
 
-    .newscard-bottom-left-p{
-        font-size: 15px;
-    }
+  .newscard-bottom-left-p {
+    font-size: 15px;
+  }
 
-    .newscard-bottom-left-h1{
-        font-size: 43px;
-    }
+  .newscard-bottom-left-h1 {
+    font-size: 43px;
+  }
 }
 
 @media only screen and (max-width: 1390px) {
-    .newscard{
-        height: 708px;
-        width: 680px;
-    }
+  .newscard {
+    height: 708px;
+    width: 680px;
+  }
 
-    .newscard-bottom-left-p{
-        font-size: 14px;
-    }
+  .newscard-bottom-left-p {
+    font-size: 14px;
+  }
 
-    .newscard-bottom-left-h1{
-        font-size: 41px;
-    }
+  .newscard-bottom-left-h1 {
+    font-size: 41px;
+  }
 }
 
 @media only screen and (max-width: 1350px) {
-    .newscard{
-        height: 677px;
-        width: 650px;
-    }
+  .newscard {
+    height: 677px;
+    width: 650px;
+  }
 }
 
-@media only screen and (max-width: 1300px) { 
-    .newscard{
-        height: 661px;
-        width: 635px;
-    }
+@media only screen and (max-width: 1300px) {
+  .newscard {
+    height: 661px;
+    width: 635px;
+  }
 
-    .newscard-bottom-left-p{
-        font-size: 13.5px;
-    }
+  .newscard-bottom-left-p {
+    font-size: 13.5px;
+  }
 
-    .newscard-bottom-left-h1{
-        font-size: 40px;
-    }
+  .newscard-bottom-left-h1 {
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width: 1250px) {
+  .newscard {
+    height: 834px;
+    width: 800px;
+    padding-bottom: 20px;
+  }
 
-    .newscard{
-        height: 834px;
-        width: 800px;
-        padding-bottom: 20px;
-    }
-
-    .newscard-bottom-left-h1{
-        font-size: 39px;
-    }
-
+  .newscard-bottom-left-h1 {
+    font-size: 39px;
+  }
 }
 
 @media only screen and (max-width: 1235px) {
-    .newscard-bottom-left-p{
-        font-size: 13px;
-    }
+  .newscard-bottom-left-p {
+    font-size: 13px;
+  }
 
-    .newscard-bottom-left-h1{
-        font-size: 35px;
-    }
-
+  .newscard-bottom-left-h1 {
+    font-size: 35px;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
-
 }
 
 @media only screen and (max-width: 1100px) {
-    .newscard-bottom-left-p{
-        font-size: 12px;
-    }
+  .newscard-bottom-left-p {
+    font-size: 12px;
+  }
 
-    .newscard-bottom-left-h1{
-        font-size: 33px;
-    }
-
-
+  .newscard-bottom-left-h1 {
+    font-size: 33px;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
-
 }
 
 @media only screen and (max-width: 980px) {
-
 }
 
 @media only screen and (max-width: 920px) {
-    .newscard{
-        height: 729px;
-        width: 700px;
-    }
-    .newscard-bottom-left-p{
-        font-size: 14px;
-    }
+  .newscard {
+    height: 729px;
+    width: 700px;
+  }
+  .newscard-bottom-left-p {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 720px) {
-    .newscard{
-        height: 708px;
-        width: 680px;
-    }
+  .newscard {
+    height: 708px;
+    width: 680px;
+  }
 
-    .newscard-bottom-left-p{
-        font-size: 10px;
-    }
+  .newscard-bottom-left-p {
+    font-size: 10px;
+  }
 
-    .newscard-bottom-left-h1{
-        font-size: 32px;
-    }
+  .newscard-bottom-left-h1 {
+    font-size: 32px;
+  }
 }
 
 @media only screen and (max-width: 680px) {
-    .newscard{
-        height: 665px;
-        width: 640px;
-    }
+  .newscard {
+    height: 665px;
+    width: 640px;
+  }
 }
 
 @media only screen and (max-width: 620px) {
-    .newscard{
-        height: 624px;
-        width: 600px;
-    }
-
+  .newscard {
+    height: 624px;
+    width: 600px;
+  }
 }
 
 @media only screen and (max-width: 580px) {
-    .newscard{
-        height: 572px;
-        width: 550px;
-    }
+  .newscard {
+    height: 572px;
+    width: 550px;
+  }
 }
 
-
 @media only screen and (max-width: 540px) {
-    .newscard{
-        height: 530px;
-        width: 510px;
-    }
+  .newscard {
+    height: 530px;
+    width: 510px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-.newscard{
+  .newscard {
     height: 488px;
     width: 470px;
-}
+  }
 
-.newscard-bottom-left-h1{
+  .newscard-bottom-left-h1 {
     font-size: 30px;
-}
+  }
 
-.newscard-bottom-right{
+  .newscard-bottom-right {
     flex: 0.7;
-}
+  }
 }
 
 @media only screen and (max-width: 470px) {
-    .newscard{
-        height: 500px;
-        width: 420px;
-        padding-bottom: 20px;
-    }
+  .newscard {
+    height: 500px;
+    width: 420px;
+    padding-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 420px) {
-    .newscard{
-        width: 400px;
-    }
+  .newscard {
+    width: 400px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .newscard{
-        width: 380px;
-    }
+  .newscard {
+    width: 380px;
+  }
 }
 
 @media only screen and (max-width: 380px) {
-    .newscard{
-        width: 360px;
-    }
+  .newscard {
+    width: 360px;
+  }
 }
-

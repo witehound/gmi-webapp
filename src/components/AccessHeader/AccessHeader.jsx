@@ -1,5 +1,6 @@
 import "./AccessHeader.css";
 import ReactPlayer from "react-player"
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 function AccessHeader() {
   return (
@@ -41,7 +42,7 @@ function AccessHeader() {
             </div>
           </div>
         </div>
-        <div className="access-header-bottom">bottom</div>
+        <div className="access-header-bottom"><KeyboardArrowDownIcon fontSize="large"/></div>
       </div>
     </div>
   );
