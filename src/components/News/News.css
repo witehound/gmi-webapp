@@ -45,7 +45,7 @@
   
   @media only screen and (max-width: 1250px) {
       .news-top-container{
-          flex-direction: column-reverse;
+          flex-direction: column;
       }
 
   }

@@ -1,7 +1,7 @@
 import "./News.css";
 import NewsCard from "./NewsCard/NewsCard";
 import newsImgOne from "../../../assets/newsImg1.png";
-import newsImgTwo from "../../../assets/nike.gif"
+// import newsImgTwo from "../../../assets/nike.gif"
 import newsImgThree from "../../../assets/starbucks.jpeg"
 import newsImgFour from "../../../assets/selfridges.webp"
 
@@ -12,7 +12,7 @@ function News() {
         <div className="news-top">
           <div className="news-top-container">
             <NewsCard newsImg={newsImgOne} title={'Alpha Pony Society'}/>
-            <NewsCard newsImg={newsImgTwo} title={'Nike x RTFKT'}/>
+            <NewsCard newsImg={newsImgOne} title={'Nike x RTFKT'}/>
           </div>
         </div>
         <div className="news-top">
