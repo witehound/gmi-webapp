@@ -1,9 +1,5 @@
 import "./News.css";
 import NewsCard from "./NewsCard/NewsCard";
-import newsImgOne from "../../../assets/newsImg1.png";
-// import newsImgTwo from "../../../assets/nike.gif"
-import newsImgThree from "../../../assets/starbucks.jpeg"
-import newsImgFour from "../../../assets/selfridges.webp"
 
 function News() {
   return (
@@ -11,14 +7,14 @@ function News() {
       <div className="news-container">
         <div className="news-top">
           <div className="news-top-container">
-            <NewsCard newsImg={newsImgOne} title={'Alpha Pony Society'}/>
-            <NewsCard newsImg={newsImgOne} title={'Nike x RTFKT'}/>
+            <NewsCard newsImg={'https://i.ibb.co/k3xYYPV/newsImg1.png'} title={'Alpha Pony Society'}/>
+            <NewsCard newsImg={'https://i.ibb.co/ygVDgXK/Nike.gif'} title={'Nike x RTFKT'}/>
           </div>
         </div>
         <div className="news-top">
           <div className="news-top-container">
-            <NewsCard newsImg={newsImgThree} title={'StarBucks'}/>
-            <NewsCard newsImg={newsImgFour} title={'Selfridges'}/>
+            <NewsCard newsImg={'https://i.ibb.co/fqyGvqJ/Starbucks.jpg'} title={'StarBucks'}/>
+            <NewsCard newsImg={'https://i.ibb.co/NNvVWHL/Selfridges.webp'} title={'Selfridges'}/>
           </div>
         </div>
       </div>
