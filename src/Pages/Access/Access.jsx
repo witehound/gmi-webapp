@@ -11,6 +11,8 @@ function Access({
   setConnectingWallet,
   accoutAddress,
   ethereum,
+  news,
+  setNews,
 }) {
   const works = false;
   return (
@@ -22,6 +24,8 @@ function Access({
         setConnectingWallet={setConnectingWallet}
         accoutAddress={accoutAddress}
         ethereum={ethereum}
+        news={news}
+        setNews={setNews}
       />
       <div className="access-web3">
         <AccessHeader />

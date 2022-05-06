@@ -4,7 +4,7 @@ import logo from "../../../assets/gmi_Original_Wide copy.svg";
 import { motion } from "framer-motion";
 import BlockOne from "../../components/BlockOne/BlockOne";
 import BlockTwo from "../../components/BlockTwo/BlockTwo";
-import BlockThree from "../../components/BlockThree/BlockThree"
+import BlockThree from "../../components/BlockThree/BlockThree";
 import BlockFour from "../../components/BlockFour/BlockFour";
 
 function Home({
@@ -15,6 +15,8 @@ function Home({
   setConnectingWallet,
   accoutAddress,
   ethereum,
+  news,
+  setNews,
 }) {
   const works = false;
   return (
@@ -26,6 +28,8 @@ function Home({
         setConnectingWallet={setConnectingWallet}
         accoutAddress={accoutAddress}
         ethereum={ethereum}
+        news={news}
+        setNews={setNews}
       />
       {!connectingWallet && (
         <div className={works ? "Home-hidden" : "Home"}>
