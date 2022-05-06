@@ -1,5 +1,5 @@
 import "./AccessHeader.css";
-import AccessHeaderVideo from "../../../assets/accessVideo.png"
+import AccessHeaderVideo from "../../../assets/accessVideo.png";
 
 function AccessHeader() {
   return (
@@ -10,7 +10,7 @@ function AccessHeader() {
             <div className="access-header-top-left-text">
               <div className="access-header-top-left-text-h1-wrap">
                 <h1 className="access-header-top-left-text-h1">
-                  We are willing to make any business{" "}
+                  We want every business to be{" "}
                   <span className="access-header-top-left-text-h1-span">
                     web3 ready.
                   </span>
@@ -18,24 +18,26 @@ function AccessHeader() {
               </div>
               <div className="access-header-top-left-text-p-wrap">
                 <p className="access-header-top-left-text-p">
-                  Real life utility and web3 integration.
+                  The inclusion of web3 to the business world is going to be a
+                  matter of when, not if. We’re here to guide you through the
+                  initial steps of preparing your business for this addition in
+                  future technology
                 </p>
                 <p className="access-header-top-left-text-p">
-                  Your unique Alpha Pony is your pass into our virtual community
-                  that owns a, real life racing club - The Alpha Pony Racing
-                  Club.
-                </p>
-                <p className="access-header-top-left-text-p">
-                  Earn passive income from race winnings, studs and sales, for
-                  life and be part of the next big digital community in the form
-                  of ENFT...
+                  Being a part of web3 allows you to find additional customers,
+                  generate a new revenue stream and take market share from your
+                  competitors by being a market innovator.
                 </p>
               </div>
             </div>
           </div>
           <div className="access-header-top-right">
             <div className="access-header-top-right-video">
-             <img src={AccessHeaderVideo} alt="" className="access-header-top-right-video-img" />
+              <img
+                src={AccessHeaderVideo}
+                alt=""
+                className="access-header-top-right-video-img"
+              />
             </div>
           </div>
         </div>
