@@ -15,7 +15,7 @@ function App() {
   const [account, setAccount] = useState(null);
   const [accoutAddress, setAccountAddress] = useState("");
   const [connectingWallet, setConnectingWallet] = useState(false);
-  const [news,setNews] = useState(true)
+  const [news, setNews] = useState(true);
 
   const connectWallet = async () => {
     if (!ethereum) {
@@ -27,18 +27,18 @@ function App() {
 
   const checkConnection = async () => {
     const accounts = await ethereum.request({ method: "eth_accounts" });
-    if (account) connectWallet();
+    setAccount(accounts[0]);
   };
 
   const sliceAddress = () => {
     setAccountAddress(`${account.slice(0, 5)}.......${account.slice(-4)}`);
   };
 
-
   useEffect(() => {
     if (ethereum) {
       setIsMetaMask(true);
     }
+    checkConnection()
     checkConnection();
     if (account) sliceAddress();
   }, [account]);
@@ -79,7 +79,6 @@ function App() {
                   news={news}
                   setNews={setNews}
                 />
-                
               ) : (
                 <Navigate replace to="/" />
               )

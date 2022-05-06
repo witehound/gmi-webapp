@@ -18,7 +18,9 @@ function Home({
   news,
   setNews,
 }) {
-  const works = false;
+
+  if (!news) setNews(!news)
+
   return (
     <>
       <Header
@@ -32,7 +34,7 @@ function Home({
         setNews={setNews}
       />
       {!connectingWallet && (
-        <div className={works ? "Home-hidden" : "Home"}>
+        <div className="Home">
           <BlockOne />
           <BlockTwo />
           <BlockThree />
