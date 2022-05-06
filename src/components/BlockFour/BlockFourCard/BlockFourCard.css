@@ -91,7 +91,7 @@
     }
 
     .blockfourcard-bottom{
-      font-size: 14px;
+      font-size: 13px;
     }
 }
 
@@ -104,5 +104,9 @@
 @media only screen and (max-width: 500px) {
     .blockfourcard{
         width: 85%;
+    }
+
+    .blockfourcard-bottom{
+      font-size: 11px;
     }
 }

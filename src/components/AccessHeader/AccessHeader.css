@@ -89,6 +89,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: black;
+}
+
+.access-header-bottom-icon{
+  font-size: 200px;
+  height: 100%;
+  width: 200px;
 }
 
 /* responsive */

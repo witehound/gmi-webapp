@@ -1,6 +1,7 @@
 import "./NewsCard.css";
+import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 
-function NewsCard({newsImg, title}) {
+function NewsCard({ newsImg, title }) {
   return (
     <div className="newscard">
       <div className="newscard-container">
@@ -30,7 +31,12 @@ function NewsCard({newsImg, title}) {
               </div>
             </div>
           </div>
-          <div className="newscard-bottom-right newscard-bottom-left-p">read more</div>
+          <div className="newscard-bottom-right newscard-bottom-left-p">
+            {" "}
+            <div className="newscard-bottom-right-inner">
+              read more <ArrowRightIcon style={{ fill: "#27d87f" }} />{" "}
+            </div>{" "}
+          </div>
         </div>
       </div>
     </div>
