@@ -1,7 +1,6 @@
 import "./NewsCard.css";
-import newsImg from "../../../../assets/newsImg.png";
 
-function NewsCard() {
+function NewsCard({newsImg, title}) {
   return (
     <div className="newscard">
       <div className="newscard-container">
@@ -12,7 +11,7 @@ function NewsCard() {
           <div className="newscard-bottom-left">
             <div className="newscard-bottom-left-wrap">
               <div className="newscard-bottom-left-h1-wrap">
-                <h1 className="newscard-bottom-left-h1">Alpha Pony Society</h1>
+                <h1 className="newscard-bottom-left-h1">{title}</h1>
               </div>
               <div className="newscard-bottom-left-p-wrap">
                 <p className="newscard-bottom-left-p">

@@ -1,5 +1,5 @@
 import "./AccessHeader.css";
-import AccessHeaderVideo from "../../../assets/accessVideo.png";
+import ReactPlayer from "react-player"
 
 function AccessHeader() {
   return (
@@ -33,10 +33,9 @@ function AccessHeader() {
           </div>
           <div className="access-header-top-right">
             <div className="access-header-top-right-video">
-              <img
-                src={AccessHeaderVideo}
-                alt=""
-                className="access-header-top-right-video-img"
+              <ReactPlayer
+                 url="https://vimeo.com/707014469"
+                 controls
               />
             </div>
           </div>
