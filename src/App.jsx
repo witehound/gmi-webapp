@@ -2,7 +2,12 @@ import { useState, useEffect } from "react";
 import "./App.css";
 import Home from "./Pages/Home/Home";
 import Access from "./Pages/Access/Access";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 function App() {
   const { ethereum } = window;
@@ -21,12 +26,13 @@ function App() {
 
   const checkConnection = async () => {
     const accounts = await ethereum.request({ method: "eth_accounts" });
-    if (account) connectWallet()
+    if (account) connectWallet();
   };
 
   const sliceAddress = () => {
     setAccountAddress(`${account.slice(0, 5)}.......${account.slice(-4)}`);
   };
+
 
   useEffect(() => {
     if (ethereum) {
@@ -35,7 +41,6 @@ function App() {
     checkConnection();
     if (account) sliceAddress();
   }, [account]);
-
 
   return (
     <div className="App">
@@ -56,20 +61,25 @@ function App() {
             }
           />
 
-        <Route
+          <Route
             path="/web3"
             element={
-              <Access
-                isMetaMask={isMetaMask}
-                connectWallet={connectWallet}
-                connectingWallet={connectingWallet}
-                setConnectingWallet={setConnectingWallet}
-                account={account}
-                accoutAddress={accoutAddress}
-                ethereum={ethereum}
-              />
-            } 
-          /> 
+              account ? (
+                <Access
+                  isMetaMask={isMetaMask}
+                  connectWallet={connectWallet}
+                  connectingWallet={connectingWallet}
+                  setConnectingWallet={setConnectingWallet}
+                  account={account}
+                  accoutAddress={accoutAddress}
+                  ethereum={ethereum}
+                />
+                
+              ) : (
+                <Navigate replace to="/" />
+              )
+            }
+          />
         </Routes>
       </Router>
     </div>

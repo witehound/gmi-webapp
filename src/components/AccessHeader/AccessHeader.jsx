@@ -35,6 +35,7 @@ function AccessHeader() {
             <div className="access-header-top-right-video">
               <ReactPlayer
                  url="https://vimeo.com/707014469"
+                 s
                  controls
               />
             </div>

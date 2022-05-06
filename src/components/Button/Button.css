@@ -92,8 +92,10 @@
   }
 }
 
-@media only screen and (max-width: 390px) {
-  .header-account {
-    display: none;
+@media only screen and (max-width: 420px) {
+  .header-button {
+    height: 40px;
+    width: 105px;
+    font-size: 9px;
   }
 }
