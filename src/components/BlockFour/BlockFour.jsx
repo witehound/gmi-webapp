@@ -1,8 +1,8 @@
 import "./BlockFour.css";
 import BlockFourCard from "./BlockFourCard/BlockFourCard";
-import BlockFourImage from "../../../assets/BlockFourImage.png"
-import linkedin from "../../../assets/linkedin.png"
-import twitter from "../../../assets/twitter.png"
+import BlockFourImage from "../../../assets/BlockFourImage.png";
+import linkedin from "../../../assets/linkedin.png";
+import twitter from "../../../assets/twitter.png";
 
 function BlockFour() {
   return (
@@ -32,7 +32,7 @@ function BlockFour() {
                 number={3}
                 title={"Virtual Passes"}
                 text={
-                  "Ticketing events through web3 eliminates uncontrolled resale and counterfeit tickets. It allows event organisers to create, manage and promote their events with dramatically reduced costs, even letting them set price controls and receive commissions on ticket resales. It also gives ticket buyers the option of rewards for promoting events."
+                  "Limited drops or one off pieces create value in your brand, however it does attract customers whose sole purpose is to buy into the product and to sell it for more the next day. By building a secondary market royalty into your NFT contract you will be able to sell limited runs and still gain the information of the end user (your true customer) as well as earning a small percentage of the secondary market price of your item."
                 }
               />
             </div>
@@ -48,7 +48,7 @@ function BlockFour() {
                 number={5}
                 title={"Secondary market royalties"}
                 text={
-                  "Limited drops or one off pieces create value in your brand, however it does attract customers whose sole purpose is to buy into the product and to sell it for more the next day. By building a secondary market royalty into your NFT contract you will be able to sell limited runs and still gain the information of the end user (your true customer) as well as earning a small percentage of the secondary market price of your item"
+                  "Ticketing events through web3 eliminates uncontrolled resale and counterfeit tickets. It allows event organisers to create, manage and promote their events with dramatically reduced costs, even letting them set price controls and receive commissions on ticket resales. It also gives ticket buyers the option of rewards for promoting events."
                 }
               />
             </div>
@@ -58,20 +58,36 @@ function BlockFour() {
         <div className="blockfour-footer">
           <hr className="blockfour-horizontal" />
           <div className="blockfour-footer-container">
-              <div className="blockfour-footer-image">
-                 <img src={BlockFourImage} alt="" className="blockfour-footer-image-image" />
+            <div className="blockfour-footer-image">
+              <img
+                src={BlockFourImage}
+                alt=""
+                className="blockfour-footer-image-image"
+              />
+            </div>
+            <div className="blockfour-footer-copyright">
+              © Copyright 2022 Studio GMI. All Rights Reserved
+            </div>
+            <div className="blockfour-footer-links">
+              <div className="blockfour-footer-links-linkdln">
+                <a href="">
+                  <img
+                    src={linkedin}
+                    alt=""
+                    className="blockfour-footer-links-linkdln-image"
+                  />
+                </a>
               </div>
-              <div className="blockfour-footer-copyright">
-                © Copyright 2022 Studio GMI. All Rights Reserved
+              <div className="blockfour-footer-links-twitter">
+                <a href="">
+                  <img
+                    src={twitter}
+                    alt=""
+                    className="blockfour-footer-links-twitter-image"
+                  />
+                </a>
               </div>
-              <div className="blockfour-footer-links">
-                  <div className="blockfour-footer-links-linkdln">
-                     <a href=""><img src={linkedin} alt="" className="blockfour-footer-links-linkdln-image"/></a> 
-                  </div>
-                  <div className="blockfour-footer-links-twitter">
-                     <a href=""><img src={twitter} alt="" className="blockfour-footer-links-twitter-image"/></a> 
-                  </div>
-              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -15,21 +15,22 @@ function BlockOne() {
             <h1 className="blockone-text-h1">Getting Businesses web3 Ready.</h1>
             <div className="blockone-text-p-wrap">
               <p className="blockone-text-p">
-                Studio GMI offers a full 360° suite to its clients. From
-                consultative training, design, build and integration within web3
-                and blockchain technologies to marketing, partnerships and after
-                sales service.Studio GMI offers a full 360° suite to its
-                clients. From consultative training, design, build and
-                integration within web3 and block- chain technologies to
+                At Studio GMI, we offer a full 360° suite of web3 and blockchain
+                technologies. From consultative training, design, build and
+                integration to marketing, partnerships and after sales service.
+                Web3 technology will be a huge addition to the current
+                technological space, by getting in early you’ll find your
+                business will find new customers, generate a new revenue stream
+                and take market share from your competitors.
               </p>
               <p className="blockone-text-p">
                 Let us guide you through the maze that is blockchain
                 technologies to create and strategize an effective way for your
-                business to enter the world of web3
+                business to enter the world of web3.
               </p>
               <p className="blockone-text-p">
                 Our goal is to help businesses transition into WEB3 and Next
-                generation technologies
+                generation technologies.
               </p>
             </div>
             <div className="blockone-text-button">
