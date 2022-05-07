@@ -1,43 +1,41 @@
-import './NewsFooter.css'
+import "./NewsFooter.css";
+import newsFooterLogo from "../../../assets/newsfooterlogo.png";
+import newsFooterLinkedIn from "../../../assets/newsfooterlinkedin.png";
+import newsFooterTwitter from "../../../assets/newsfootertwitter.png";
 
 const NewsFooter = () => {
-    return(
-        <div className="blockfour-footer">
-        <hr className="blockfour-horizontal" />
-        <div className="blockfour-footer-container">
-          <div className="blockfour-footer-image">
-            <img
-              src={BlockFourImage}
-              alt=""
-              className="blockfour-footer-image-image"
-            />
+  return (
+    <div className="newsfooter">
+      <div className="newsfooter-container">
+        <div className="newsfooter-image">
+          <img src={newsFooterLogo} alt="" className="newsfooter-image-image" />
+        </div>
+        <div className="newsfooter-copyright">
+          © Copyright 2022 Studio GMI. All Rights Reserved
+        </div>
+        <div className="newsfooter-links">
+          <div className="newsfooter-links-linkdln">
+            <a href="">
+              <img
+                src={newsFooterLinkedIn}
+                alt=""
+                className="newsfooter-links-linkdln-image"
+              />
+            </a>
           </div>
-          <div className="blockfour-footer-copyright">
-            © Copyright 2022 Studio GMI. All Rights Reserved
-          </div>
-          <div className="blockfour-footer-links">
-            <div className="blockfour-footer-links-linkdln">
-              <a href="">
-                <img
-                  src={linkedin}
-                  alt=""
-                  className="blockfour-footer-links-linkdln-image"
-                />
-              </a>
-            </div>
-            <div className="blockfour-footer-links-twitter">
-              <a href="">
-                <img
-                  src={twitter}
-                  alt=""
-                  className="blockfour-footer-links-twitter-image"
-                />
-              </a>
-            </div>
+          <div className="newsfooter-links-twitter">
+            <a href="">
+              <img
+                src={newsFooterTwitter}
+                alt=""
+                className="newsfooter-links-twitter-image"
+              />
+            </a>
           </div>
         </div>
       </div>
-    )
-}
+    </div>
+  );
+};
 
-export default NewsFooter
+export default NewsFooter;

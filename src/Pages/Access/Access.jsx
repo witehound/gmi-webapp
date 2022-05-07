@@ -31,7 +31,7 @@ function Access({
       <div className="access-web3">
         <AccessHeader />
         <News />
-        <NewsFooter />
+        <NewsFooter/>
       </div>
     </>
   );
