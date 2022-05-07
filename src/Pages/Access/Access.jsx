@@ -32,6 +32,7 @@ function Access({
         <AccessHeader />
         <News />
         <NewsFooter/>
+        {/* me */}
       </div>
     </>
   );
