@@ -77,7 +77,7 @@
 @media only screen and (max-width: 920px) {
   .blockfourcard{
     height: 90%;
-    width: 60%;
+    width: 67%;
   }
 
   .blockfourcard-bottom{
@@ -85,9 +85,9 @@
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 790px) {
     .blockfourcard{
-        width: 65%;
+        width: 68%;
     }
 
     .blockfourcard-bottom{

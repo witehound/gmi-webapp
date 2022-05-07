@@ -55,7 +55,9 @@ function BlockFour() {
               </div>
             </div>
           </div>
-
+          <div className="spacer">
+            {"  "}
+          </div>
           <div className="blockfour-footer">
             <hr className="blockfour-horizontal" />
             <div className="blockfour-footer-container">

@@ -15,15 +15,17 @@
 
 .blockfour-container {
   width: 80%;
-  height: 95%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
 }
 
 .blockfour-usapart {
   flex: 6;
   display: flex;
   flex-direction: column;
+  padding: 20px 0px;
 }
 
 .blockfour-usapart-top {
@@ -53,9 +55,17 @@
   justify-content: space-evenly;
 }
 
+.spacer{
+  flex: 0.6;
+}
+
 .blockfour-footer {
   flex: 1;
-  padding-top: 40px;
+  padding-top: 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* align-items: center; */
 }
 
 .blockfour-horizontal {
@@ -63,7 +73,7 @@
 }
 
 .blockfour-footer-container {
-  padding: 20px 0px;
+  padding: 0px 0px;
   display: flex;
   justify-content: space-between;
   height: 100%;
@@ -91,6 +101,7 @@
   color: white;
   font-weight: 25px;
   font-weight: 600px;
+  text-align: center;
 }
 
 .blockfour-footer-links {
@@ -148,6 +159,10 @@
     .blockfour-usapart-h1{
         font-size: 33px;
     }
+
+    .spacer{
+      flex: 0.4;
+    }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -193,23 +208,45 @@
   }
 
   .blockfour-footer-container{
-    padding: 5px 0px;
+    padding: 3px 0px;
   }
 
   .blockfour-container {
     height: 98%;
   }
+
+  .blockfour-footer{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .blockfour-horizontal{
+    width: 80%;
+  }
+
 }
 
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 790px){
     .blockfour-usapart-h1{
         font-size: 32px;
+    }
+
+    .blockfour-footer{
+      flex: 0.7;
+    }
+
+    .blockfour-footer-copyright{
+      font-size: 13px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     .blockfour-usapart-h1{
         font-size: 30px;
+    }
+
+    .blockfour-footer-copyright{
+      font-size: 12px;
     }
 }
 
