@@ -1,7 +1,7 @@
 import "./Header.css";
 import { Link } from "react-router-dom";
-import Button from "../../components/Button/Button"
-import headerLogo from "../../../assets/headerLogo.png"
+import Button from "../../components/Button/Button";
+import headerLogo from "../../../assets/headerLogo.png";
 
 function Header({
   isMetaMask,
@@ -11,7 +11,7 @@ function Header({
   accoutAddress,
   ethereum,
   news,
-  setNews
+  setNews,
 }) {
   const loadConnectWallet = async () => {
     if (!ethereum) return;
@@ -19,7 +19,7 @@ function Header({
     connectWallet();
     if (account) {
       setConnectingWallet(false);
-      return
+      return;
     } else {
       setTimeout(() => {
         setConnectingWallet(false);
@@ -35,24 +35,41 @@ function Header({
           <div className="header-wrap">
             <div className="header-right">
               <div className="header-left">
-               <img src={headerLogo} alt="" className="gmi-header-logo"/>
+                <Link to="/">
+                  <img src={headerLogo} alt="" className="gmi-header-logo" />
+                </Link>
               </div>
               {account && news && (
                 <div className="header-right-connect-wrap">
-                  <Link to="/web3" onClick={()=>{setNews(!news)}}>
-                    <Button text={'welcome'} color={'white'} header={'header-button'}/>
+                  <Link
+                    to="/web3"
+                    onClick={() => {
+                      setNews(!news);
+                    }}
+                  >
+                    <Button
+                      text={"welcome"}
+                      color={"white"}
+                      header={"header-button"}
+                    />
                   </Link>
                 </div>
               )}
               <div className="header-right-connect-wrap header-right-connect-wrap-other">
-                <div
-                 
-                  onClick={loadConnectWallet}
-                >
+                <div onClick={loadConnectWallet}>
                   {!account ? (
-                   <Button text={isMetaMask ? "Connect" : "Install MetaMask"} color={'white'} header={'header-button'}/>
+                    <Button
+                      text={isMetaMask ? "Connect" : "Install MetaMask"}
+                      color={"white"}
+                      header={"header-button"}
+                    />
                   ) : (
-                    <Button text={accoutAddress} color={'white'} header={'header-button'} accountPresent={'header-account'}/>
+                    <Button
+                      text={accoutAddress}
+                      color={"white"}
+                      header={"header-button"}
+                      accountPresent={"header-account"}
+                    />
                   )}
                 </div>
               </div>
