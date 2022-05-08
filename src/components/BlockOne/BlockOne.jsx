@@ -32,7 +32,7 @@ function BlockOne() {
               </p>
             </div>
             <div className="blockone-text-button">
-              <Button text={"Get Involved"} color={"white"} />
+              <a href="mailto:hi@studio-gmi.com"><Button text={"Reach Out"} color={"white"} /></a>
             </div>
           </div>
         </div>

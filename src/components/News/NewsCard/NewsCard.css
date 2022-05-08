@@ -25,19 +25,6 @@
   position: absolute;
 }
 
-.testing-grey{
-  background-color: rgb(56, 55, 55);
-  opacity: 0.9;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
-
-.testing-grey:hover{
- display: none;
- transition: ease-in-out;
-}
-
 .newscard-bottom {
   flex: 1;
   display: flex;
@@ -160,6 +147,10 @@
   .newscard-bottom-left-h1 {
     font-size: 39px;
   }
+
+  .newscard-bottom{
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 1235px) {
@@ -263,6 +254,10 @@
     height: 640px;
     width: 430px;
     padding-bottom: 20px;
+  }
+
+  .newscard-bottom-left-p {
+    font-size: 9px;
   }
 }
 
