@@ -72,7 +72,7 @@ function BlockFour() {
               <div className="blockfour-footer-links">
                 <div className="blockfour-footer-links-wrap">
                   <div className="blockfour-footer-links-linkdln">
-                    <a href="https://www.linkedin.com/company/studiogmi/">
+                    <a href="https://www.linkedin.com/company/studiogmi/" target="_blank">
                       <img
                         src={linkedin}
                         alt=""
@@ -81,7 +81,7 @@ function BlockFour() {
                     </a>
                   </div>
                   <div className="blockfour-footer-links-twitter">
-                    <a href="https://twitter.com/studio_gmi">
+                    <a href="https://twitter.com/studio_gmi" target="_blank">
                       <img
                         src={twitter}
                         alt=""

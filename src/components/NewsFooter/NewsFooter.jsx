@@ -16,7 +16,7 @@ const NewsFooter = () => {
         <div className="newsfooter-links">
           <div className="newsfooter-links-wrap">
             <div className="newsfooter-links-linkdln">
-              <a href="https://www.linkedin.com/company/studiogmi/">
+              <a href="https://www.linkedin.com/company/studiogmi/" target="_blank">
                 <img
                   src={newsFooterLinkedIn}
                   alt=""
@@ -25,7 +25,7 @@ const NewsFooter = () => {
               </a>
             </div>
             <div className="newsfooter-links-twitter">
-              <a href="https://twitter.com/studio_gmi">
+              <a href="https://twitter.com/studio_gmi" target="_blank">
                 <img
                   src={newsFooterTwitter}
                   alt=""
