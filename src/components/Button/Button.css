@@ -28,15 +28,6 @@
   border-radius: 0.2rem;
 }
 
-.button-div-green:hover {
-  background-color: #27d87f;
-  color: #1b2130;
-}
-.button-div-white:hover {
-  background-color: #1b2130;
-  color: white;
-}
-
 .button-div-white {
   background-color: #27d87f;
   height: 50px;
@@ -81,6 +72,10 @@
   .header-button {
     width: 130px;
     font-size: 12px;
+  }
+
+  .button-span-span{
+    display: none;
   }
 }
 
