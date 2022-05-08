@@ -1,12 +1,13 @@
 import "./NewsCard.css";
 import ArrowRightIcon from "@mui/icons-material/ArrowRight";
 
-function NewsCard({ newsImg, title }) {
+function NewsCard({ newsImg, title, p1, p2, p3,link }) {
   return (
     <div className="newscard">
       <div className="newscard-container">
         <div className="newscard-top">
           <img src={newsImg} alt="" className="newscard-top-img" />
+          <div className="testing-grey">{" "}</div>
         </div>
         <div className="newscard-bottom">
           <div className="newscard-bottom-left">
@@ -16,17 +17,13 @@ function NewsCard({ newsImg, title }) {
               </div>
               <div className="newscard-bottom-left-p-wrap">
                 <p className="newscard-bottom-left-p">
-                  Real life utility and web3 integration.
+                  {p1}
                 </p>
                 <p className="newscard-bottom-left-p">
-                  Your unique Alpha Pony is your pass into our virtual community
-                  that owns a, real life racing club - The Alpha Pony Racing
-                  Club.
+                  {p2}
                 </p>
                 <p className="newscard-bottom-left-p">
-                  Earn passive income from race winnings, studs and sales, for
-                  life and be part of the next big digital community in the form
-                  of ENFT.
+                  {p3}
                 </p>
               </div>
             </div>
@@ -34,7 +31,7 @@ function NewsCard({ newsImg, title }) {
           <div className="newscard-bottom-right newscard-bottom-left-p">
             {" "}
             <div className="newscard-bottom-right-inner">
-              read more <ArrowRightIcon style={{ fill: "#27d87f" }} />{" "}
+             <a href={link} target='_blank' className="newscard-bottom-right-inner">read more <ArrowRightIcon style={{ fill: "#27d87f" }} />{" "}</a> 
             </div>{" "}
           </div>
         </div>

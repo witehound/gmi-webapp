@@ -55,9 +55,7 @@ function BlockFour() {
               </div>
             </div>
           </div>
-          <div className="spacer">
-            {"  "}
-          </div>
+          <div className="spacer">{"  "}</div>
           <div className="blockfour-footer">
             <hr className="blockfour-horizontal" />
             <div className="blockfour-footer-container">
@@ -72,23 +70,25 @@ function BlockFour() {
                 © Copyright 2022 Studio GMI. All Rights Reserved
               </div>
               <div className="blockfour-footer-links">
-                <div className="blockfour-footer-links-linkdln">
-                  <a href="">
-                    <img
-                      src={linkedin}
-                      alt=""
-                      className="blockfour-footer-links-linkdln-image"
-                    />
-                  </a>
-                </div>
-                <div className="blockfour-footer-links-twitter">
-                  <a href="">
-                    <img
-                      src={twitter}
-                      alt=""
-                      className="blockfour-footer-links-twitter-image"
-                    />
-                  </a>
+                <div className="blockfour-footer-links-wrap">
+                  <div className="blockfour-footer-links-linkdln">
+                    <a href="https://www.linkedin.com/company/studiogmi/" target="_blank">
+                      <img
+                        src={linkedin}
+                        alt=""
+                        className="blockfour-footer-links-linkdln-image"
+                      />
+                    </a>
+                  </div>
+                  <div className="blockfour-footer-links-twitter">
+                    <a href="https://twitter.com/studio_gmi" target="_blank">
+                      <img
+                        src={twitter}
+                        alt=""
+                        className="blockfour-footer-links-twitter-image"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

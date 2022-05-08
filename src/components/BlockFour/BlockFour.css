@@ -1,4 +1,4 @@
-.blockfourwrap{
+.blockfourwrap {
   background-color: #27d87f;
 }
 
@@ -55,7 +55,7 @@
   justify-content: space-evenly;
 }
 
-.spacer{
+.spacer {
   flex: 0.6;
 }
 
@@ -110,6 +110,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.blockfour-footer-links-wrap{
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   gap: 50px;
 }
 
@@ -124,8 +132,8 @@
     width: 83%;
   }
 
-  .blockfour-usapart-h1{
-      font-size: 40px;
+  .blockfour-usapart-h1 {
+    font-size: 40px;
   }
 }
 
@@ -144,8 +152,8 @@
     width: 89%;
   }
 
-  .blockfour-usapart-h1{
-      font-size: 35px;
+  .blockfour-usapart-h1 {
+    font-size: 35px;
   }
 }
 
@@ -156,13 +164,13 @@
 }
 
 @media only screen and (max-width: 1100px) {
-    .blockfour-usapart-h1{
-        font-size: 33px;
-    }
+  .blockfour-usapart-h1 {
+    font-size: 33px;
+  }
 
-    .spacer{
-      flex: 0.4;
-    }
+  .spacer {
+    flex: 0.4;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
@@ -176,8 +184,8 @@
     width: 99%;
   }
 
-  .blockfour{
-      height: 1100px;
+  .blockfour {
+    height: 1100px;
   }
 }
 
@@ -193,9 +201,36 @@
     gap: 15px;
   }
 
-  .blockfour-footer-links,
+  .blockfour-footer{
+    justify-content: space-between;
+  }
+
+  .blockfour-footer-container {
+    flex-direction: column-reverse;
+  }
+
+  .blockfour-footer-links {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+  }
+
+  .blockfour-footer-links-wrap{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
   .blockfour-footer-image {
     display: none;
+  }
+
+  .blockfour-footer-links-linkdln-image,
+  .blockfour-footer-links-twitter-image {
+    width: 25px;
   }
 
   .blockfour-footer-copyright {
@@ -203,11 +238,11 @@
     text-align: center;
   }
 
-  .blockfour-usapart-h1{
-      font-size: 35px;
+  .blockfour-usapart-h1 {
+    font-size: 35px;
   }
 
-  .blockfour-footer-container{
+  .blockfour-footer-container {
     padding: 3px 0px;
   }
 
@@ -215,38 +250,36 @@
     height: 98%;
   }
 
-  .blockfour-footer{
+  .blockfour-footer {
     align-items: center;
     justify-content: center;
   }
 
-  .blockfour-horizontal{
+  .blockfour-horizontal {
     width: 80%;
   }
-
 }
 
-@media only screen and (max-width: 790px){
-    .blockfour-usapart-h1{
-        font-size: 32px;
-    }
+@media only screen and (max-width: 790px) {
+  .blockfour-usapart-h1 {
+    font-size: 32px;
+  }
 
-    .blockfour-footer{
-      flex: 0.7;
-    }
+  .blockfour-footer {
+    flex: 0.7;
+  }
 
-    .blockfour-footer-copyright{
-      font-size: 13px;
-    }
+  .blockfour-footer-copyright {
+    font-size: 13px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .blockfour-usapart-h1{
-        font-size: 30px;
-    }
+  .blockfour-usapart-h1 {
+    font-size: 30px;
+  }
 
-    .blockfour-footer-copyright{
-      font-size: 12px;
-    }
+  .blockfour-footer-copyright {
+    font-size: 12px;
+  }
 }
-

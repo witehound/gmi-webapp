@@ -16,11 +16,26 @@
 .newscard-top {
   flex: 2.3;
   background-color: white;
+  position: relative;
 }
 
 .newscard-top-img {
   height: 100%;
   width: 100%;
+  position: absolute;
+}
+
+.testing-grey{
+  background-color: rgb(56, 55, 55);
+  opacity: 0.9;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.testing-grey:hover{
+ display: none;
+ transition: ease-in-out;
 }
 
 .newscard-bottom {
@@ -67,11 +82,12 @@
   color: #27d87f;
 }
 
-.newscard-bottom-right-inner{
+.newscard-bottom-right-inner a{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #27d87f;
 }
 
 /* responsive */
@@ -223,14 +239,13 @@
 
 @media only screen and (max-width: 540px) {
   .newscard {
-    height: 530px;
+    height: 600px;
     width: 510px;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .newscard {
-    height: 488px;
     width: 470px;
   }
 
@@ -245,26 +260,26 @@
 
 @media only screen and (max-width: 470px) {
   .newscard {
-    height: 500px;
-    width: 420px;
+    height: 640px;
+    width: 430px;
     padding-bottom: 20px;
   }
 }
 
 @media only screen and (max-width: 420px) {
   .newscard {
-    width: 400px;
+    width: 410px;
   }
 }
 
 @media only screen and (max-width: 400px) {
   .newscard {
-    width: 380px;
+    width: 390px;
   }
 }
 
 @media only screen and (max-width: 380px) {
   .newscard {
-    width: 360px;
+    width: 370px;
   }
 }

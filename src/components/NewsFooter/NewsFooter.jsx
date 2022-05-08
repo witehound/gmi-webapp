@@ -14,23 +14,25 @@ const NewsFooter = () => {
           © Copyright 2022 Studio GMI. All Rights Reserved
         </div>
         <div className="newsfooter-links">
-          <div className="newsfooter-links-linkdln">
-            <a href="">
-              <img
-                src={newsFooterLinkedIn}
-                alt=""
-                className="newsfooter-links-linkdln-image"
-              />
-            </a>
-          </div>
-          <div className="newsfooter-links-twitter">
-            <a href="">
-              <img
-                src={newsFooterTwitter}
-                alt=""
-                className="newsfooter-links-twitter-image"
-              />
-            </a>
+          <div className="newsfooter-links-wrap">
+            <div className="newsfooter-links-linkdln">
+              <a href="https://www.linkedin.com/company/studiogmi/" target="_blank">
+                <img
+                  src={newsFooterLinkedIn}
+                  alt=""
+                  className="newsfooter-links-linkdln-image"
+                />
+              </a>
+            </div>
+            <div className="newsfooter-links-twitter">
+              <a href="https://twitter.com/studio_gmi" target="_blank">
+                <img
+                  src={newsFooterTwitter}
+                  alt=""
+                  className="newsfooter-links-twitter-image"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
