@@ -48,7 +48,8 @@ function Header({
                     }}
                   >
                     <Button
-                      text={"Explore Web3"}
+                      text={"Explore"}
+                      span={"Web3"}
                       color={"white"}
                       header={"header-button"}
                     />
