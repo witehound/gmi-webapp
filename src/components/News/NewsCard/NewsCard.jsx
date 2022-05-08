@@ -7,7 +7,6 @@ function NewsCard({ newsImg, title, p1, p2, p3,link }) {
       <div className="newscard-container">
         <div className="newscard-top">
           <img src={newsImg} alt="" className="newscard-top-img" />
-          <div className="testing-grey">{" "}</div>
         </div>
         <div className="newscard-bottom">
           <div className="newscard-bottom-left">
