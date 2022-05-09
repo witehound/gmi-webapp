@@ -22,7 +22,7 @@ function AccessHeader() {
                   The inclusion of web3 to the business world is going to be a
                   matter of when, not if. We’re here to guide you through the
                   initial steps of preparing your business for this addition in
-                  future technology
+                  future technology.
                 </p>
                 <p className="access-header-top-left-text-p">
                   Being a part of web3 allows you to find additional customers,
