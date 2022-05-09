@@ -15,7 +15,7 @@ function News() {
               }
               p2={"Earn passive income from race winnings, studs and sales, for life and be part of the next big digital community in the form of ENFT"}
               p3={"With an ambitious yet achievable road map ahead, the future holds big things of the income, IRL/Digital rewards, merch, race visits, parties and interactive web3 activities."}
-              link={'www.thealphaponysociety.com'}
+              link={'https://www.thealphaponysociety.com'}
             />
             <NewsCard
               newsImg={"https://i.ibb.co/ygVDgXK/Nike.gif"}
