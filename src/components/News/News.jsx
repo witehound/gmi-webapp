@@ -8,7 +8,7 @@ function News() {
         <div className="news-top">
           <div className="news-top-container">
             <NewsCard
-              newsImg={"https://i.ibb.co/88LTVS0/GMITAPS.jpg"}
+              newsImg={"https://i.ibb.co/ws3kFJ5/Screenshot-2022-05-09-at-13-52-10.png"}
               title={"The Alpha Pony Society"}
               p1={
                 "Real life utility and web3 integration. Your unique Alpha Pony is your pass into our virtual community that owns a, real life racing club - The Alpha Pony Racing Club."
