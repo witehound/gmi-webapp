@@ -8,14 +8,14 @@ function News() {
         <div className="news-top">
           <div className="news-top-container">
             <NewsCard
-              newsImg={"https://i.ibb.co/88LTVS0/GMITAPS.jpg"}
+              newsImg={"https://i.ibb.co/ws3kFJ5/Screenshot-2022-05-09-at-13-52-10.png"}
               title={"The Alpha Pony Society"}
               p1={
                 "Real life utility and web3 integration. Your unique Alpha Pony is your pass into our virtual community that owns a, real life racing club - The Alpha Pony Racing Club."
               }
               p2={"Earn passive income from race winnings, studs and sales, for life and be part of the next big digital community in the form of ENFT"}
               p3={"With an ambitious yet achievable road map ahead, the future holds big things of the income, IRL/Digital rewards, merch, race visits, parties and interactive web3 activities."}
-              link={'www.thealphaponysociety.com'}
+              link={'https://www.thealphaponysociety.com'}
             />
             <NewsCard
               newsImg={"https://i.ibb.co/ygVDgXK/Nike.gif"}
