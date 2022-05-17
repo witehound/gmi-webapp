@@ -26,8 +26,6 @@ function BlockThree() {
               <p className="blockthree-text-p">
                 The global market for the Metaverse in 2020 was valued at
                 US$107.1 Billion and is projected to reach US$758.6 Billion by
-                2026.The global market for the Metaverse in 2020 was valued at
-                US$107.1 Billion and is projected to reach US$758.6 Billion by
                 2026.
               </p>
             </div>
